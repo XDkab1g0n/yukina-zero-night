@@ -18,32 +18,34 @@
 | 十八歲雪奈是誰、能做到什麼 | `current_canon.md`（v17.8.2d；舊的 v17.7 已過時） |
 | 前傳、回憶、其他時期的雪奈 | `world/雪奈/` 的對應時期檔；各時期的能力、裝備、關係與所知要分清 |
 | 配角、組織制度、場所空間、道具 | `world/` 的原始檔：制度看組織檔，空間看地點檔 |
-| 怎麼寫得好看 | `WRITING_GUIDE.md`（v2） |
+| 怎麼寫得好看 | `WRITING_GUIDE.md`（v3，短指南） |
 | 多代理怎麼分工、怎麼選稿 | `method/LOOP.md` |
 
 其他文件裡的順帶描寫，不能覆蓋原始設定。遇到矛盾，先確認時期與文件定位；無法裁決時直接指出，不要默默拼合。
 
 ## 依任務讀什麼
 
-| 要做的事 | 動筆前完整讀 | 視需要再讀 |
+| 要做的事 | 起步資料 | 視需要再讀 |
 |---|---|---|
-| 寫現在篇的新故事 | `current_canon.md`、`WRITING_GUIDE.md`、`source_guide.md`、`world/世界觀_核心設定_v0.5.md` | `source_guide.md` 指到的 world 檔；找手感讀 `examples/selected_examples.md` |
-| 寫前傳或回憶 | 對應時期檔、`world/雪奈/雪奈_歷史事件索引.md`、`WRITING_GUIDE.md` | 該時期出場人物的檔 |
-| 續寫（「繼續」「接著寫」） | `stories/<題目>.md` 的最後一段；該篇開頭註明的工作資料夾（`workshop/<YYYYMMDD>_<題目>/`）裡有 `ledger.md` 就一起讀；再加上面的必讀 | 該篇開頭的新創元素說明 |
-| 沒給方向，要 AI 自己出題 | `method/proposer_prompt.md`、`method/idea_log.md`（不得重複的題目與慣性元素） | 出好的任務卡一律先交 Charles 審 |
-| 用多代理寫，或要完整一篇 | `method/LOOP.md`（三級：輕量／標準／完整，預設標準）、`method/writer_prompt.md`、`method/reader_prompt.md` | `method/iteration_log.md`（流程為什麼長這樣、實測用量） |
-| 審稿、評一篇稿 | `WRITING_GUIDE.md`、`method/reader_prompt.md` | 失敗稿病理：`examples/examples_editorial_analysis.md`、`examples/loop_benchmark_shinagawa.md` |
-| 設計新配角或對手 | `templates/character_sheet.md`、`WRITING_GUIDE.md`〈設定留在水面下〉 | 相關組織檔 |
-| 回答設定問題 | `current_canon.md` 與相關 world 檔 | `world/雪奈/雪奈_歷史事件索引.md` |
+| 寫新故事（主控） | `method/LOOP.md`、`method/reading_protocol.md`、`source_guide.md` | 首次建立人物核心時讀對應時期人物原檔與世界核心設定；依大綱選相關原文 |
+| 擔任寫手 | 自己的 `method/writer_prompt.md` 模板、已確認大綱、人物核心與本篇摘錄 | 按包內回查路線補原檔；技法需要時讀 `WRITING_GUIDE.md` 或範文 |
+| 寫前傳或回憶 | 同上，但資料包以當期設定與歷史事件索引為來源 | 涉及哪些時期就核對哪些時期，不倒套現在篇 |
+| 續寫 | 該篇上一段全文、必要對帳與早期摘要、沿用且已確認版本的本篇資料 | 依新增人物、能力、時期與情節依賴補讀 |
+| 沒給方向，要 AI 自己出題 | `method/proposer_prompt.md`、`method/idea_log.md` 的近作與保留題目 | 關鍵假設先核實，大綱交 Charles 確認後才開始正文 |
+| 多代理分工 | 主控讀 `method/LOOP.md`；各代理只讀自己的模板與任務資料 | 預設一寫手、K 設定與 R 閱讀平行審稿；完整競稿須明確指定 |
+| 設定審查 | `method/reader_prompt.md` 的 K 模板、完整正文、對應時期核心人物原檔與世界核心設定 | 按正文實際使用的設定補查相關原檔，不只核對摘錄 |
+| 閱讀審稿 | `method/reader_prompt.md` 的 R 模板、正文與必要前文 | 冷讀後看本篇閱讀目標，保持與設定審查獨立 |
+| 設計新配角或對手 | `templates/character_sheet.md`、`WRITING_GUIDE.md`〈設定留在水面下〉 | 相關組織與人物資料 |
+| 回答設定問題 | 主管原檔的完整相關小節，不以摘要當證據 | 人格全貌、歷史弧線或跨章關係才擴至整檔 |
 
-**閱讀紀律**：核心人物的對應時期設定要完整讀過；長檔分段讀到底，回傳被截斷的部分不算讀過。搜尋片段、記憶與這份 README 都不能代替全文。同一段連續創作中，已完整讀過且沒更新的檔可以沿用。**唯一例外**是多代理流程裡的寫手：他們讀主控用原文摘錄做成的設定摘錄包，由讀完整正典的讀者把關（見 `method/LOOP.md`）。
+**閱讀原則**：摘錄先用，關鍵判斷前按問題回查。完整小節應含條件、例外與必要交叉參照；能回答問題就停，不固定讀幾成。首次建核心卡的整理者與獨立 K 審稿者仍理解完整核心人物；寫手不必重複吞下同樣全文。詳細觸發、停止條件與資料包模板見 `method/reading_protocol.md`。特定作品另有明確全文閱讀要求時依該作品規劃。長檔截斷不算讀完，來源更新要核對受影響摘錄。
 
 ## 檔案地圖
 
 ```
 README.md                 這份入口
 current_canon.md          十八歲正篇正典 v17.8.2d
-WRITING_GUIDE.md          寫作指南 v2：最高標準、因果骨架、冰山法則與六種堆砌、戰鬥、視角節奏、範文心得、動筆流程與重讀清單
+WRITING_GUIDE.md          寫作短指南 v3：人物、文采、設定取用、戰鬥與修訂
 source_guide.md           world/ 各檔的導覽：裡面有什麼、什麼時候讀
 world/
   世界觀_核心設定_v0.5.md  2080 年代新東京的世界常識與制度
@@ -53,13 +55,14 @@ world/
   地點/                   朔夜宅邸、神山高中、神諭、鴉巢、夢菓
   道具/                   夜巡者
 method/
-  LOOP.md                 多代理寫作流程 v2：三級制；標準級＝摘錄包、3 寫手整篇競稿、編輯兼正典＋冷讀者、原寫手修訂、超過 5% 複審
-  proposer_prompt.md      出題者提示詞：沒給方向時出題寫任務卡、替三位寫手出攪局
-  idea_log.md             歷史出題紀錄：寫過的題目、慣性元素、用過的攪局
+  LOOP.md                 寫作流程 v3：一寫手、設定與閱讀平行審稿、原寫手修訂、按影響複查
+  proposer_prompt.md      短構想與大綱：探索方向，核實關鍵假設後請 Charles 確認
+  idea_log.md             歷史出題紀錄：比較近作的發展與讀感，不作永久禁用表
   writer_prompt.md        寫手提示詞模板
-  reader_prompt.md        讀者提示詞模板（標準級 E／C、完整級 R1／R2／R3、複審版、全篇驗收版）
-  build_context_pack.py   依範圍清單原文摘錄設定，自動切成每份不超過 4 萬 bytes 的摘錄包
-  verify_prose.py         表層快檢：解釋尾巴、套句、簡體字、比喻與標籤密度、宣讀強度、總結旁白
+  reader_prompt.md        K 設定與 R 閱讀審稿模板、按影響複查
+  reading_protocol.md    摘錄、回查觸發、擴讀與停止條件；資料包模板
+  build_context_pack.py   依章節或行號摘錄，記錄來源雜湊，每檔不超過 4 萬 bytes
+  verify_prose.py         可選字面提醒：不以句型或密度判定文學合格與否
   iteration_log.md        方法學的驗證與修訂紀錄
 examples/
   selected_examples.md         12 組範文精選片段（原文）

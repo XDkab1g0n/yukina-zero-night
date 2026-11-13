@@ -1,17 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""雪奈稿件表層快檢（v2，2026-11-08）
+"""雪奈稿件字面提醒（v3，2026-11-13）
 
-用法：
-    python3 method/verify_prose.py <稿件.md> [更多稿件 ...]
-
-它只抓字面上看得到的毛病，用來在人工重讀或盲審前先清掉雜訊。
-PASS 不代表好看；好不好看、骨架有沒有重複、人物有沒有走樣，仍要照
-WRITING_GUIDE 的重讀清單與 method/reader_prompt.md 判斷。
-
-輸出分兩級：
-    [硬傷] 幾乎一定要改（解釋尾巴、AI 套句、簡體字）。有硬傷時結束碼為 1。
-    [提醒] 密度或次數偏高，回去看那幾處是否真的有作用。
+用法：python method/verify_prose.py <稿件.md> [更多稿件 ...]
+所有命中只供人工閱讀定位，不自動判錯，不提供文學品質 PASS/FAIL。
+字形也可能出現在引文或專名，需看上下文。成功分析退出 0；讀取或編碼錯誤退出 2。
+舊版密度門檻僅作搜尋線索，不是風格配額；無需清空提醒。
 """
 
 import os
@@ -23,7 +17,7 @@ if hasattr(sys.stdout, "reconfigure"):
 
 HAN = re.compile(r"[一-鿿]")
 
-# ---------- 硬傷 ----------
+# ---------- 字面線索（不是禁用詞表） ----------
 # 1. 破折號／補述解釋尾巴：「——那是……」「──這是……」（容許中間空白）
 DASH_EXPLAIN = re.compile(r"(?:——|──|—|－－)\s*(?:那是|這是|那正是|這正是|對於|作為|因為|源自|來自)")
 
@@ -86,24 +80,24 @@ def snippet(line: str, start: int, width: int = 28) -> str:
 
 
 def analyze(path: str) -> int:
-    with open(path, encoding="utf-8", errors="ignore") as f:
+    with open(path, encoding="utf-8-sig") as f:
         text = f.read()
     lines = body_lines(text)
     body = "\n".join(l for _, l in lines)
     han = len(HAN.findall(body))
     per3k = max(han / 3000, 1e-9)
 
-    hard, warn = [], []
+    warn = []
 
     for no, line in lines:
         for m in DASH_EXPLAIN.finditer(line):
-            hard.append(f"第 {no} 行 解釋尾巴「{m.group()}」：…{snippet(line, m.start())}…")
+            warn.append(f"第 {no} 行 可能的補述「{m.group()}」：…{snippet(line, m.start())}…")
         for c in AI_CLICHES:
             for m in re.finditer(re.escape(c), line):
-                hard.append(f"第 {no} 行 AI 套句「{c}」：…{snippet(line, m.start())}…")
+                warn.append(f"第 {no} 行 常見片語「{c}」：…{snippet(line, m.start())}…")
         bad = sorted({ch for ch in line if ch in SIMPLIFIED})
         if bad:
-            hard.append(f"第 {no} 行 疑似簡體字 {''.join(bad)}")
+            warn.append(f"第 {no} 行 疑似簡體字 {''.join(bad)}")
 
     # 比喻密度
     total_sim = 0
@@ -113,7 +107,7 @@ def analyze(path: str) -> int:
         if len(hits) >= 2:
             warn.append(f"第 {no} 行 同一段 {len(hits)} 個比喻詞（{'、'.join(hits)}）")
     if han and total_sim / (han / 1000) > 1.0:
-        warn.append(f"全文比喻詞 {total_sim} 個，約每千字 {total_sim / (han / 1000):.1f} 個（>1 偏多；範文與〈無脈〉都低於 0.4）")
+        warn.append(f"全文比喻詞 {total_sim} 個，約每千字 {total_sim / (han / 1000):.1f} 個（僅供定位，依本篇風格判斷）")
 
     # 標籤複讀
     for lab, limit in LABELS.items():
@@ -148,18 +142,21 @@ def analyze(path: str) -> int:
     print("=" * 64)
     print(f"{os.path.basename(path)}｜漢字 {han} 字｜正文行 {len(lines)}")
     print("=" * 64)
-    for title, items in (("硬傷", hard), ("提醒", warn)):
-        print(f"[{title}] {len(items)} 處")
-        for it in items:
-            print("  - " + it)
-    verdict = "FAIL（有硬傷）" if hard else ("PASS（有提醒，請人工看）" if warn else "PASS")
-    print(f"結果：{verdict}\n")
-    return 1 if hard else 0
+    print(f"[閱讀提醒] {len(warn)} 處（命中不代表錯誤）")
+    for item in warn:
+        print("  - " + item)
+    print("結果：字面掃描完成；是否修改由上下文與讀感決定。\n")
+    return 0
+
 
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
         print(__doc__)
         sys.exit(2)
-    codes = [analyze(p) for p in sys.argv[1:]]
-    sys.exit(max(codes))
+    try:
+        codes = [analyze(p) for p in sys.argv[1:]]
+        sys.exit(max(codes))
+    except (OSError, UnicodeError) as exc:
+        print(f"無法讀取稿件：{exc}", file=sys.stderr)
+        sys.exit(2)
