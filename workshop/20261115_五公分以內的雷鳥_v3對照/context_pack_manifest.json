@@ -1,0 +1,236 @@
+{
+  "format": 1,
+  "source_head": "5620a6ce91d2a53b178488e250e3a19aa9e13229",
+  "spec_sha256": "1382965b30f792763512341df0d5fe0dc59df19ebb244b891488c627db88d3f5",
+  "spec_text": "current_canon.md|heading|1.1 身份|雪奈基本身份與神山高中三年C班座位\ncurrent_canon.md|heading|8.2 身體輸出|38kg低質量與非持續舉重界線\ncurrent_canon.md|heading|13.3 跨身份共用武裝|白夜極夜、夜影、極光運作條件與互斥\ncurrent_canon.md|heading|14. 零夜視覺與裝備|零夜整體視覺與橘燄、白霰、黑曜、零點規格與限制\ncurrent_canon.md|heading|18. 重要關係|雪奈與琉璃、潔西卡關係基調\nworld/角色/角色_潔西卡_v3.md|heading|2.5 戰鬥服|潔西卡戰鬥服外觀\nworld/角色/角色_潔西卡_v3.md|heading|4.2 真正欲望|潔西卡的欲望、自尊、競爭與被保護\nworld/角色/角色_潔西卡_v3.md|heading|7. 電磁能力模組|潔西卡接觸放電、電弧、EMP與磁控條件\nworld/角色/角色_潔西卡_v3.md|heading|8.3 低輸出精密模式|潔西卡低輸出與近身戰能力\nworld/角色/角色_潔西卡_v3.md|heading|8.6 近身戰|潔西卡軍事格鬥與近戰應對\nworld/角色/角色_潔西卡_v3.md|heading|10. 裝備|潔西卡導電飾品與戰術靴機能\nworld/角色/角色_潔西卡_v3.md|heading|11. 弱點與邊界|潔西卡過載與環境限制\nworld/角色/角色_琉璃_v3.md|heading|2.5 戰鬥服「迴路綻放」|琉璃戰鬥服外觀\nworld/角色/角色_琉璃_v3.md|heading|3.4 冷卻與散熱|琉璃過熱散熱表現\nworld/角色/角色_琉璃_v3.md|heading|4.2 真正欲望|琉璃自主後之欲望與個人品味\nworld/角色/角色_琉璃_v3.md|heading|8. 六根機械觸手|琉璃六觸手末端、並行限制與用途\nworld/角色/角色_琉璃_v3.md|heading|9. 內建武器與模組|琉璃掌心炮、高頻刃、眼部激光與非致命\nworld/角色/角色_琉璃_v3.md|heading|10. 戰鬥狀態與限制|琉璃狀態矩陣與明確弱點\nworld/組織/組織_八咫烏_v2_0.md|heading|2. 神代椿|神代椿職責與無現場指揮權\nworld/組織/組織_八咫烏_v2_0.md|heading|五、法律地位與善後制度|八咫烏現場權限與秘密預算賠償制度\nworld/角色/角色_神代椿.md|1|64|神代椿完整人物、布丁與辦公大樓設定\n",
+  "sources": {
+    "current_canon.md": "91e1b81901d2c7d5861f6bda5af14b3bcdac04455e64dca9d3290c1cf81128d3",
+    "world/角色/角色_潔西卡_v3.md": "ebb55cabd92043ff7fa13d73d2a546efb6145ce63d7fd07d2e5a50142e243af7",
+    "world/角色/角色_琉璃_v3.md": "9f1335a4829a659188d51337f7ad16e19978b3937d54f8e259c293bd42fcd34e",
+    "world/組織/組織_八咫烏_v2_0.md": "ef85086e0eb673c7a4b3e57d960b4af41d4d09bfe0dcc74288e12c73b23a657d",
+    "world/角色/角色_神代椿.md": "d063937cb44fc19addf18538184cd909cb71c46527e932405789f8e511fb02af"
+  },
+  "selections": [
+    {
+      "path": "current_canon.md",
+      "start": 36,
+      "end": 52,
+      "selector": [
+        "heading",
+        "1.1 身份"
+      ],
+      "description": "雪奈基本身份與神山高中三年C班座位"
+    },
+    {
+      "path": "current_canon.md",
+      "start": 735,
+      "end": 748,
+      "selector": [
+        "heading",
+        "8.2 身體輸出"
+      ],
+      "description": "38kg低質量與非持續舉重界線"
+    },
+    {
+      "path": "current_canon.md",
+      "start": 943,
+      "end": 1013,
+      "selector": [
+        "heading",
+        "13.3 跨身份共用武裝"
+      ],
+      "description": "白夜極夜、夜影、極光運作條件與互斥"
+    },
+    {
+      "path": "current_canon.md",
+      "start": 1133,
+      "end": 1345,
+      "selector": [
+        "heading",
+        "14. 零夜視覺與裝備"
+      ],
+      "description": "零夜整體視覺與橘燄、白霰、黑曜、零點規格與限制"
+    },
+    {
+      "path": "current_canon.md",
+      "start": 1525,
+      "end": 1711,
+      "selector": [
+        "heading",
+        "18. 重要關係"
+      ],
+      "description": "雪奈與琉璃、潔西卡關係基調"
+    },
+    {
+      "path": "world/角色/角色_潔西卡_v3.md",
+      "start": 129,
+      "end": 142,
+      "selector": [
+        "heading",
+        "2.5 戰鬥服"
+      ],
+      "description": "潔西卡戰鬥服外觀"
+    },
+    {
+      "path": "world/角色/角色_潔西卡_v3.md",
+      "start": 181,
+      "end": 191,
+      "selector": [
+        "heading",
+        "4.2 真正欲望"
+      ],
+      "description": "潔西卡的欲望、自尊、競爭與被保護"
+    },
+    {
+      "path": "world/角色/角色_潔西卡_v3.md",
+      "start": 290,
+      "end": 333,
+      "selector": [
+        "heading",
+        "7. 電磁能力模組"
+      ],
+      "description": "潔西卡接觸放電、電弧、EMP與磁控條件"
+    },
+    {
+      "path": "world/角色/角色_潔西卡_v3.md",
+      "start": 352,
+      "end": 356,
+      "selector": [
+        "heading",
+        "8.3 低輸出精密模式"
+      ],
+      "description": "潔西卡低輸出與近身戰能力"
+    },
+    {
+      "path": "world/角色/角色_潔西卡_v3.md",
+      "start": 368,
+      "end": 375,
+      "selector": [
+        "heading",
+        "8.6 近身戰"
+      ],
+      "description": "潔西卡軍事格鬥與近戰應對"
+    },
+    {
+      "path": "world/角色/角色_潔西卡_v3.md",
+      "start": 409,
+      "end": 434,
+      "selector": [
+        "heading",
+        "10. 裝備"
+      ],
+      "description": "潔西卡導電飾品與戰術靴機能"
+    },
+    {
+      "path": "world/角色/角色_潔西卡_v3.md",
+      "start": 435,
+      "end": 456,
+      "selector": [
+        "heading",
+        "11. 弱點與邊界"
+      ],
+      "description": "潔西卡過載與環境限制"
+    },
+    {
+      "path": "world/角色/角色_琉璃_v3.md",
+      "start": 124,
+      "end": 135,
+      "selector": [
+        "heading",
+        "2.5 戰鬥服「迴路綻放」"
+      ],
+      "description": "琉璃戰鬥服外觀"
+    },
+    {
+      "path": "world/角色/角色_琉璃_v3.md",
+      "start": 157,
+      "end": 162,
+      "selector": [
+        "heading",
+        "3.4 冷卻與散熱"
+      ],
+      "description": "琉璃過熱散熱表現"
+    },
+    {
+      "path": "world/角色/角色_琉璃_v3.md",
+      "start": 188,
+      "end": 199,
+      "selector": [
+        "heading",
+        "4.2 真正欲望"
+      ],
+      "description": "琉璃自主後之欲望與個人品味"
+    },
+    {
+      "path": "world/角色/角色_琉璃_v3.md",
+      "start": 304,
+      "end": 339,
+      "selector": [
+        "heading",
+        "8. 六根機械觸手"
+      ],
+      "description": "琉璃六觸手末端、並行限制與用途"
+    },
+    {
+      "path": "world/角色/角色_琉璃_v3.md",
+      "start": 340,
+      "end": 381,
+      "selector": [
+        "heading",
+        "9. 內建武器與模組"
+      ],
+      "description": "琉璃掌心炮、高頻刃、眼部激光與非致命"
+    },
+    {
+      "path": "world/角色/角色_琉璃_v3.md",
+      "start": 382,
+      "end": 407,
+      "selector": [
+        "heading",
+        "10. 戰鬥狀態與限制"
+      ],
+      "description": "琉璃狀態矩陣與明確弱點"
+    },
+    {
+      "path": "world/組織/組織_八咫烏_v2_0.md",
+      "start": 59,
+      "end": 66,
+      "selector": [
+        "heading",
+        "2. 神代椿"
+      ],
+      "description": "神代椿職責與無現場指揮權"
+    },
+    {
+      "path": "world/組織/組織_八咫烏_v2_0.md",
+      "start": 128,
+      "end": 147,
+      "selector": [
+        "heading",
+        "五、法律地位與善後制度"
+      ],
+      "description": "八咫烏現場權限與秘密預算賠償制度"
+    },
+    {
+      "path": "world/角色/角色_神代椿.md",
+      "start": 1,
+      "end": 64,
+      "selector": [
+        "1",
+        "64"
+      ],
+      "description": "神代椿完整人物、布丁與辦公大樓設定"
+    }
+  ],
+  "note": "File hashes describe actual inputs, including any uncommitted changes. Line endings normalized to LF. Semantic coverage is reviewed by a person/agent.",
+  "outputs": {
+    "context_pack_1.md": {
+      "sha256": "ecd63ec578918d6f87be1077ecb32d2dbbd1fe4717c6dc13a9026f49d3b1db68",
+      "bytes": 37724
+    },
+    "context_pack_2.md": {
+      "sha256": "dd3889b7ceaef4303edc7773c0455b5b860680b125b7a284bad661845a86855f",
+      "bytes": 4687
+    }
+  }
+}
