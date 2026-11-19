@@ -34,7 +34,7 @@
 | 沒給方向，要 AI 自己出題 | `method/proposer_prompt.md`、`method/idea_log.md` 的近作與保留題目 | 關鍵假設先核實，大綱交 Charles 確認後才開始正文 |
 | 多代理分工 | 主控讀 `method/LOOP.md`；各代理只讀自己的模板與任務資料 | 預設一寫手、K 設定與 R 閱讀平行審稿；完整競稿須明確指定 |
 | 設定審查 | `method/reader_prompt.md` 的 K 模板、完整正文、對應時期核心人物原檔與世界核心設定 | 按正文實際使用的設定補查相關原檔，不只核對摘錄 |
-| 閱讀審稿 | `method/reader_prompt.md` 的 R 模板、正文與必要前文 | 冷讀後看本篇閱讀目標，保持與設定審查獨立 |
+| 閱讀審稿 | `method/reader_prompt.md` 的 R 模板、讀者設定、正文與必要前文 | 冷讀後看本篇閱讀目標，保持與設定審查獨立 |
 | 設計新配角或對手 | `templates/character_sheet.md`、`WRITING_GUIDE.md`〈設定留在水面下〉 | 相關組織與人物資料 |
 | 回答設定問題 | 主管原檔的完整相關小節，不以摘要當證據 | 人格全貌、歷史弧線或跨章關係才擴至整檔 |
 
@@ -62,7 +62,7 @@ method/
   reader_prompt.md        寫前 K 預審、寫後 K 設定與 R 閱讀審稿模板、按影響複查
   reading_protocol.md    摘錄、回查觸發、擴讀與停止條件；資料包模板
   build_context_pack.py   依章節或行號摘錄，記錄來源雜湊，每檔不超過 4 萬 bytes
-  verify_prose.py         可選字面提醒：不以句型或密度判定文學合格與否
+  verify_prose.py         可選字面與自我重複提醒：不以句型、密度或重複判定文學合格與否
   iteration_log.md        方法學的驗證與修訂紀錄
 examples/
   selected_examples.md         12 組範文精選片段（原文）

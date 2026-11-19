@@ -112,5 +112,36 @@ class MethodToolsTest(unittest.TestCase):
         result = subprocess.run([sys.executable, str(HERE / "verify_prose.py"), str(self.source)], capture_output=True)
         self.assertEqual(result.returncode, 2)
 
+    def test_prose_self_repetition_hints_skip_props_numbers_and_dialogue(self):
+        filler = ["走廊很安靜。"] * 25
+        text = "\n".join([
+            "助理的喉結猛地滾動了一下，站像截鋼樁。",
+            "她把垂在身側的右手收回口袋。",
+            "展櫃旁擺著防爆玻璃基準儀展櫃。",
+            "他退了兩百公斤的距離。",
+            "「我們安安靜靜地走。」",
+            "倉橋的喉結劇烈滾動，倒下時像截被砍斷根部的木樁。",
+            "她又把垂在身側的右手抬起來。",
+            "防爆玻璃基準儀展櫃沒有破。",
+            "他退了兩百公斤的距離。",
+            "「我們安安靜靜地走。」",
+            *filler,
+            "雪奈慢慢地推開了窗戶。",
+            *filler,
+            "雪奈慢慢地推開了窗戶。",
+        ]) + "\n"
+        self.source.write_text(text, encoding="utf-8")
+        lines = prose.body_lines(text)
+        self.assertEqual([(p, nos) for p, _, nos in prose.repeated_body_reactions(lines)], [("喉結", [1, 6])])
+        self.assertEqual(prose.repeated_simile_leads(lines), [("像截", [1, 6])])
+        self.assertEqual(prose.near_repeated_phrases(lines), [("把垂在身側的右手", [2, 7])])
+        output = io.StringIO()
+        with contextlib.redirect_stdout(output):
+            self.assertEqual(prose.analyze(str(self.source)), 0)
+        self.assertIn("身體反應重複「喉結」後接「滾動」", output.getvalue())
+        self.assertIn("近距離重複片語「把垂在身側的右手」", output.getvalue())
+        self.assertNotIn("基準儀展櫃", output.getvalue())
+        self.assertNotIn("推開了窗戶", output.getvalue())
+
 if __name__ == "__main__":
     unittest.main()

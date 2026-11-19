@@ -1,13 +1,15 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""雪奈稿件字面提醒（v3，2026-11-13）
+"""雪奈稿件字面提醒（v3.1，2026-11-19：加入同篇自我重複提醒）
 
 用法：python method/verify_prose.py <稿件.md> [更多稿件 ...]
 所有命中只供人工閱讀定位，不自動判錯，不提供文學品質 PASS/FAIL。
 字形也可能出現在引文或專名，需看上下文。成功分析退出 0；讀取或編碼錯誤退出 2。
 舊版密度門檻僅作搜尋線索，不是風格配額；無需清空提醒。
+自我重複提醒只抓身體反應、比喻起手與近距離描寫片語；道具名、專名與數字多半已排除，刻意呼應可保留。
 """
 
+import collections
 import os
 import re
 import sys
@@ -57,6 +59,19 @@ NOT_X_BUT_Y = re.compile(r"不是[^，。！？「」]{1,14}[，,]\s*(?:而)?是
 # 8. 講義腔術語（旁白出現時提醒；角色台詞裡的專業用語不一定要改）
 JARGON = ["迷走神經", "乳酸", "轉動慣量", "生物阻抗", "平滑肌", "頸動脈竇", "角動量守恆", "動量守恆", "神經遞質"]
 
+# 9. 同篇自我重複（閱讀審稿最常逐條手抓的近距離重複；只定位，不判錯）
+HAN_RUN = re.compile(r"[一-鿿]+")
+REPEAT_FUNC = set("的了是在不一他她我你們著這那就也有和與把被說地得都還又再要會能而但並才從向對到上下中裡個些來去過")
+REPEAT_NUM = set("零一二三四五六七八九十百千萬兩第半幾")
+REPEAT_MARK = set("著了過起出進回下上住開往朝在把被得地")  # 片語需含動作、方位或體貌標記，藉此略過道具名與專名
+BODY_PARTS = ["喉結", "嘴角", "唇角", "嘴唇", "呆毛", "眉心", "眉頭", "眉梢", "指尖", "指節", "指腹",
+              "肩線", "肩膀", "睫毛", "眼神", "視線", "目光", "呼吸", "心跳", "耳根", "耳尖", "臉頰",
+              "下顎", "下巴", "掌心", "手指", "拳頭", "瞳孔", "背脊", "脊背", "膝蓋", "腳步", "嗓音",
+              "喉嚨", "鼻尖", "額頭", "腕骨", "手腕", "髮梢"]
+SIMILE_LEAD = re.compile(r"像是|彷彿|宛如|如同|猶如|好似|(?<![好想影圖畫肖偶錄攝映頭雕佛])像")
+REPEAT_WINDOW = 20  # 近距離：兩處相隔不超過幾個正文行
+REPEAT_SHOW = 12    # 每類最多列出幾筆
+
 
 def is_dialogue(line: str) -> bool:
     s = line.strip()
@@ -77,6 +92,66 @@ def body_lines(text: str):
 def snippet(line: str, start: int, width: int = 28) -> str:
     a = max(0, start - width // 2)
     return line[a:a + width].strip().replace("\n", " ")
+
+
+def repeated_body_reactions(lines):
+    """同一身體部位後接同一動作，例：喉結猛地滾動／喉結劇烈滾動。回傳 (部位, [動作], [行號])。"""
+    hits = collections.defaultdict(set)
+    for no, line in lines:
+        for part in BODY_PARTS:
+            for m in re.finditer(part, line):
+                run = HAN_RUN.match(line, m.end())
+                tail = run.group()[:6] if run else ""
+                for k in range(len(tail) - 1):
+                    gram = tail[k:k + 2]
+                    if gram[0] in REPEAT_FUNC or gram[1] in REPEAT_FUNC or gram in BODY_PARTS:
+                        continue
+                    hits[(part, gram)].add(no)
+    grouped = collections.defaultdict(list)
+    for (part, gram), nos in hits.items():
+        if len(nos) >= 2:
+            grouped[(part, tuple(sorted(nos)))].append(gram)
+    return sorted(((part, grams, list(nos)) for (part, nos), grams in grouped.items()), key=lambda x: x[2][0])
+
+
+def repeated_simile_leads(lines):
+    """同一比喻詞後接同一字起手，例：像截鋼樁／像截被砍斷的木樁。回傳 (起手, [行號])。"""
+    hits = collections.defaultdict(set)
+    for no, line in lines:
+        for m in SIMILE_LEAD.finditer(line):
+            ch = line[m.end():m.end() + 1]
+            if ch and HAN_RUN.fullmatch(ch) and ch not in REPEAT_FUNC and ch not in "是隻個某":
+                hits[m.group() + ch].add(no)
+    return sorted(((lead, sorted(nos)) for lead, nos in hits.items() if len(nos) >= 2), key=lambda x: x[1][0])
+
+
+def near_repeated_phrases(lines, window: int = REPEAT_WINDOW, min_len: int = 5, max_len: int = 16):
+    """相隔不遠又原樣出現的描寫片語。出現超過三次（多為專名或刻意母題）、含數字、
+    不含動作／方位標記（多為道具名）或只出現在台詞裡的不列。回傳 (片語, [行號])。"""
+    order = {no: i for i, (no, _) in enumerate(lines)}
+    dialogue = {no for no, line in lines if is_dialogue(line)}
+    pos = collections.defaultdict(list)
+    for no, line in lines:
+        for run in HAN_RUN.findall(line):
+            for size in range(min_len, min(max_len, len(run)) + 1):
+                for k in range(len(run) - size + 1):
+                    pos[run[k:k + size]].append(no)
+    cand = {}
+    for gram, nos in pos.items():
+        uniq = sorted(set(nos))
+        if len(uniq) < 2 or len(nos) > 3:
+            continue
+        if set(gram) & REPEAT_NUM or not set(gram) & REPEAT_MARK:
+            continue
+        if all(no in dialogue for no in uniq):
+            continue
+        if any(order[b] - order[a] <= window for a, b in zip(uniq, uniq[1:])):
+            cand[gram] = uniq
+    kept = []
+    for gram in sorted(cand, key=len, reverse=True):
+        if not any(gram in longer for longer in kept):
+            kept.append(gram)
+    return sorted(((gram, cand[gram]) for gram in kept), key=lambda x: x[1][0])
 
 
 def analyze(path: str) -> int:
@@ -138,6 +213,20 @@ def analyze(path: str) -> int:
         ratio = short / len(narr)
         if ratio > 0.7:
             warn.append(f"不超過 20 字的敘述行佔 {ratio:.0%}（{short}/{len(narr)}），檢查是否一句一行")
+
+    # 同篇自我重複
+    def nums(nos):
+        return "、".join(str(n) for n in nos)
+    groups = (
+        [f"身體反應重複「{part}」後接「{'／'.join(sorted(grams))}」：第 {nums(nos)} 行"
+         for part, grams, nos in repeated_body_reactions(lines)],
+        [f"比喻起手重複「{lead}…」：第 {nums(nos)} 行" for lead, nos in repeated_simile_leads(lines)],
+        [f"近距離重複片語「{gram}」：第 {nums(nos)} 行" for gram, nos in near_repeated_phrases(lines)],
+    )
+    for items in groups:
+        warn.extend(items[:REPEAT_SHOW])
+        if len(items) > REPEAT_SHOW:
+            warn.append(f"……同類重複另有 {len(items) - REPEAT_SHOW} 處未列出")
 
     print("=" * 64)
     print(f"{os.path.basename(path)}｜漢字 {han} 字｜正文行 {len(lines)}")
