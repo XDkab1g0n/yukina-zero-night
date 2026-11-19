@@ -57,7 +57,7 @@ world/
 method/
   LOOP.md                 寫作流程 v3：寫前 K 預審大綱與設定包、一寫手、設定與閱讀平行審稿、原寫手修訂、按影響複查
   proposer_prompt.md      短構想與大綱：探索方向，核實關鍵假設後請 Charles 確認
-  idea_log.md             歷史出題紀錄：比較近作的發展與讀感，不作永久禁用表
+  idea_log.md             歷史出題紀錄：比較近作發展、讀感、敵方知情與衝突骨架，不作永久禁用表
   writer_prompt.md        寫手提示詞模板
   reader_prompt.md        寫前 K 預審、寫後 K 設定與 R 閱讀審稿模板、按影響複查
   reading_protocol.md    摘錄、回查觸發、擴讀與停止條件；資料包模板
@@ -65,7 +65,7 @@ method/
   verify_prose.py         可選字面與自我重複提醒：不以句型、密度或重複判定文學合格與否
   iteration_log.md        方法學的驗證與修訂紀錄
 examples/
-  selected_examples.md         12 組範文精選片段（原文）
+  selected_examples.md         14 組範文精選片段（含近作不同敵方知情／衝突生成方式）
   full_examples_archive.md     11 篇範文與對照稿全文（約 41 萬字元，需要時才讀）
   examples_editorial_analysis.md  逐篇精讀：好在哪裡、失敗稿怎麼走偏
   loop_benchmark_shinagawa.md  品川五輪競稿實測正文與逐輪標註（第四輪是反面教材）
