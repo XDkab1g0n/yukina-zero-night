@@ -55,11 +55,11 @@ world/
   地點/                   朔夜宅邸、神山高中、神諭、鴉巢、夢菓
   道具/                   夜巡者
 method/
-  LOOP.md                 寫作流程 v3：一寫手、設定與閱讀平行審稿、原寫手修訂、按影響複查
+  LOOP.md                 寫作流程 v3：寫前 K 預審大綱與設定包、一寫手、設定與閱讀平行審稿、原寫手修訂、按影響複查
   proposer_prompt.md      短構想與大綱：探索方向，核實關鍵假設後請 Charles 確認
   idea_log.md             歷史出題紀錄：比較近作的發展與讀感，不作永久禁用表
   writer_prompt.md        寫手提示詞模板
-  reader_prompt.md        K 設定與 R 閱讀審稿模板、按影響複查
+  reader_prompt.md        寫前 K 預審、寫後 K 設定與 R 閱讀審稿模板、按影響複查
   reading_protocol.md    摘錄、回查觸發、擴讀與停止條件；資料包模板
   build_context_pack.py   依章節或行號摘錄，記錄來源雜湊，每檔不超過 4 萬 bytes
   verify_prose.py         可選字面提醒：不以句型或密度判定文學合格與否
