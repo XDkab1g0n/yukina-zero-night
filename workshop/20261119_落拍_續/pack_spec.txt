@@ -1,0 +1,34 @@
+current_canon.md|heading|2.5 身體部位|身體功能與十二歲舊腹傷管理
+current_canon.md|heading|2.6 生理能力與恢復|雪奈毒抗、失血與恢復需求
+current_canon.md|heading|8.4 防禦|真實血肉受創條件
+current_canon.md|heading|8.5 全領域能力補充|戰地醫療、都市逃亡、反毒與離線駭客邊界
+current_canon.md|heading|11.3 跨身份共用武裝|白夜極夜、夜影與極光條件
+current_canon.md|heading|11.4 銀色幽靈配套裝備|夢魘舞者與紫電
+current_canon.md|heading|11.5 防護服裝細節|水手服露腰、壓力襪與拋棄斗篷後身體覆蓋邊界
+current_canon.md|heading|11.6 身體覆蓋與受損指稱|正文受損部位準確指稱
+current_canon.md|heading|11.7 惡作劇與臨場工具|腰帶／腿環小道具與急救補給
+current_canon.md|heading|13. 樞紐與導航員|根權限與授權邊界、導航員口吻
+current_canon.md|heading|14. 傷勢、資源與風險|極限消耗管理與風險
+current_canon.md|heading|導航員AI|導航員關係
+current_canon.md|heading|貓屋敷奏|雪奈視角下的奏
+world/道具/道具_夜巡者.md|heading|基礎科技框架|夜巡者通訊中繼、能源與車架
+world/道具/道具_夜巡者.md|heading|2. 殺手「銀色幽靈」模式（螢光紫）|銀色幽靈模式功能與聲光
+world/角色/角色_桔梗靜流.md|heading|身份與背景|舊城區診所與十二歲舊傷照護
+world/角色/角色_桔梗靜流.md|heading|能力（僅醫藥相關）|雪奈專用醫療後勤與止血凝血藥劑
+world/角色/角色_桔梗靜流.md|heading|外觀與辨識度|褪色銀杏葉木牌與診所視覺座標
+world/角色/角色_奏_v4.md|heading|0. 不可變核心|黑貓不可變核心
+world/角色/角色_奏_v4.md|heading|1.3 半同居狀態|奏的安全屋與任務裝備整備空間
+world/角色/角色_奏_v4.md|heading|2.1 基本外觀|墨黑鮑伯短髮、琥珀眼與指腹薄繭
+world/角色/角色_奏_v4.md|heading|2.4 戰鬥服|黑貓作戰膠衣、貓耳耳機、線匣與防割手套
+world/角色/角色_奏_v4.md|heading|3.6 對暴力的態度|奏的冰冷控制殺意
+world/角色/角色_奏_v4.md|heading|6. 能力與裝備|戰力定位與「控制先於殺戮」三階段
+world/角色/角色_奏_v4.md|heading|7. 主武器「影縛」|承重索、束縛索、切割絲與四主兩輔20公尺限制
+world/角色/角色_奏_v4.md|heading|8. 柔術與近身技術|槓桿、潔癖與力量限制
+world/角色/角色_奏_v4.md|heading|9. 輔助裝備|淬毒飛針、煙霧閃光與不用槍弱點
+world/角色/角色_奏_v4.md|heading|10. 戰術思維|棋手視角與即興佈線
+world/角色/角色_奏_v4.md|heading|11. 弱點與風險|雪奈遇險時提高風險接受度與影縛弱點
+world/角色/角色_奏_v4.md|heading|12.1 朔夜雪奈|稱呼雪奈姐與依戀本質
+world/角色/角色_奏_v4.md|heading|15. 聲線與狀態矩陣|雪奈遇險與陣地收網聲線
+world/角色/角色_奏_v4.md|heading|16. 寫作要點|先寫空間與錨點再寫線網
+world/世界觀_核心設定_v0.5.md|heading|2.1 新舊交錯的都市|立體交通與跨區夜行背景
+world/地點/地點_朔夜宅邸.md|heading|朔夜宅邸（世田谷區｜00號安全屋）|世田谷位置定位

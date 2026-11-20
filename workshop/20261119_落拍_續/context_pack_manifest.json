@@ -1,0 +1,367 @@
+{
+  "format": 1,
+  "source_head": "f8576a3b1af0764fe323105cf858af1fa19a347f",
+  "spec_sha256": "58b46ebc72f84309764c8097b7fed5aa04b15fb88d48b2a7cdc172533a25b53a",
+  "spec_text": "current_canon.md|heading|2.5 身體部位|身體功能與十二歲舊腹傷管理\ncurrent_canon.md|heading|2.6 生理能力與恢復|雪奈毒抗、失血與恢復需求\ncurrent_canon.md|heading|8.4 防禦|真實血肉受創條件\ncurrent_canon.md|heading|8.5 全領域能力補充|戰地醫療、都市逃亡、反毒與離線駭客邊界\ncurrent_canon.md|heading|11.3 跨身份共用武裝|白夜極夜、夜影與極光條件\ncurrent_canon.md|heading|11.4 銀色幽靈配套裝備|夢魘舞者與紫電\ncurrent_canon.md|heading|11.5 防護服裝細節|水手服露腰、壓力襪與拋棄斗篷後身體覆蓋邊界\ncurrent_canon.md|heading|11.6 身體覆蓋與受損指稱|正文受損部位準確指稱\ncurrent_canon.md|heading|11.7 惡作劇與臨場工具|腰帶／腿環小道具與急救補給\ncurrent_canon.md|heading|13. 樞紐與導航員|根權限與授權邊界、導航員口吻\ncurrent_canon.md|heading|14. 傷勢、資源與風險|極限消耗管理與風險\ncurrent_canon.md|heading|導航員AI|導航員關係\ncurrent_canon.md|heading|貓屋敷奏|雪奈視角下的奏\nworld/道具/道具_夜巡者.md|heading|基礎科技框架|夜巡者通訊中繼、能源與車架\nworld/道具/道具_夜巡者.md|heading|2. 殺手「銀色幽靈」模式（螢光紫）|銀色幽靈模式功能與聲光\nworld/角色/角色_桔梗靜流.md|heading|身份與背景|舊城區診所與十二歲舊傷照護\nworld/角色/角色_桔梗靜流.md|heading|能力（僅醫藥相關）|雪奈專用醫療後勤與止血凝血藥劑\nworld/角色/角色_桔梗靜流.md|heading|外觀與辨識度|褪色銀杏葉木牌與診所視覺座標\nworld/角色/角色_奏_v4.md|heading|0. 不可變核心|黑貓不可變核心\nworld/角色/角色_奏_v4.md|heading|1.3 半同居狀態|奏的安全屋與任務裝備整備空間\nworld/角色/角色_奏_v4.md|heading|2.1 基本外觀|墨黑鮑伯短髮、琥珀眼與指腹薄繭\nworld/角色/角色_奏_v4.md|heading|2.4 戰鬥服|黑貓作戰膠衣、貓耳耳機、線匣與防割手套\nworld/角色/角色_奏_v4.md|heading|3.6 對暴力的態度|奏的冰冷控制殺意\nworld/角色/角色_奏_v4.md|heading|6. 能力與裝備|戰力定位與「控制先於殺戮」三階段\nworld/角色/角色_奏_v4.md|heading|7. 主武器「影縛」|承重索、束縛索、切割絲與四主兩輔20公尺限制\nworld/角色/角色_奏_v4.md|heading|8. 柔術與近身技術|槓桿、潔癖與力量限制\nworld/角色/角色_奏_v4.md|heading|9. 輔助裝備|淬毒飛針、煙霧閃光與不用槍弱點\nworld/角色/角色_奏_v4.md|heading|10. 戰術思維|棋手視角與即興佈線\nworld/角色/角色_奏_v4.md|heading|11. 弱點與風險|雪奈遇險時提高風險接受度與影縛弱點\nworld/角色/角色_奏_v4.md|heading|12.1 朔夜雪奈|稱呼雪奈姐與依戀本質\nworld/角色/角色_奏_v4.md|heading|15. 聲線與狀態矩陣|雪奈遇險與陣地收網聲線\nworld/角色/角色_奏_v4.md|heading|16. 寫作要點|先寫空間與錨點再寫線網\nworld/世界觀_核心設定_v0.5.md|heading|2.1 新舊交錯的都市|立體交通與跨區夜行背景\nworld/地點/地點_朔夜宅邸.md|heading|朔夜宅邸（世田谷區｜00號安全屋）|世田谷位置定位\n",
+  "sources": {
+    "current_canon.md": "0fea2378ea81c95b3329f96223f8eeba672219b89398ebbd968dfe532c183148",
+    "world/道具/道具_夜巡者.md": "072c739a41240526e22f55316bb3d86bd03e2e4a38ea40e209901637636cc565",
+    "world/角色/角色_桔梗靜流.md": "b269735b073d1434676aead9cf4db3dfa1e60d7c7b7f99a3e0f3270515d96c9d",
+    "world/角色/角色_奏_v4.md": "4dcd0a5ead901677436e7adb90d743736e41cb25da54bd0001a3711200d9ed65",
+    "world/世界觀_核心設定_v0.5.md": "523932ce1e082505af809d2ce16ebc1a3562a2d5765aae13528d7ab465ec7eb6",
+    "world/地點/地點_朔夜宅邸.md": "7fd24f29ad288bb87e774a7701398e6d13b6e71629e0d22fb8d1c93b0bd008ff"
+  },
+  "selections": [
+    {
+      "path": "current_canon.md",
+      "start": 205,
+      "end": 221,
+      "selector": [
+        "heading",
+        "2.5 身體部位"
+      ],
+      "description": "身體功能與十二歲舊腹傷管理"
+    },
+    {
+      "path": "current_canon.md",
+      "start": 222,
+      "end": 241,
+      "selector": [
+        "heading",
+        "2.6 生理能力與恢復"
+      ],
+      "description": "雪奈毒抗、失血與恢復需求"
+    },
+    {
+      "path": "current_canon.md",
+      "start": 761,
+      "end": 790,
+      "selector": [
+        "heading",
+        "8.4 防禦"
+      ],
+      "description": "真實血肉受創條件"
+    },
+    {
+      "path": "current_canon.md",
+      "start": 791,
+      "end": 807,
+      "selector": [
+        "heading",
+        "8.5 全領域能力補充"
+      ],
+      "description": "戰地醫療、都市逃亡、反毒與離線駭客邊界"
+    },
+    {
+      "path": "current_canon.md",
+      "start": 907,
+      "end": 977,
+      "selector": [
+        "heading",
+        "11.3 跨身份共用武裝"
+      ],
+      "description": "白夜極夜、夜影與極光條件"
+    },
+    {
+      "path": "current_canon.md",
+      "start": 978,
+      "end": 1026,
+      "selector": [
+        "heading",
+        "11.4 銀色幽靈配套裝備"
+      ],
+      "description": "夢魘舞者與紫電"
+    },
+    {
+      "path": "current_canon.md",
+      "start": 1027,
+      "end": 1056,
+      "selector": [
+        "heading",
+        "11.5 防護服裝細節"
+      ],
+      "description": "水手服露腰、壓力襪與拋棄斗篷後身體覆蓋邊界"
+    },
+    {
+      "path": "current_canon.md",
+      "start": 1057,
+      "end": 1071,
+      "selector": [
+        "heading",
+        "11.6 身體覆蓋與受損指稱"
+      ],
+      "description": "正文受損部位準確指稱"
+    },
+    {
+      "path": "current_canon.md",
+      "start": 1072,
+      "end": 1095,
+      "selector": [
+        "heading",
+        "11.7 惡作劇與臨場工具"
+      ],
+      "description": "腰帶／腿環小道具與急救補給"
+    },
+    {
+      "path": "current_canon.md",
+      "start": 1305,
+      "end": 1387,
+      "selector": [
+        "heading",
+        "13. 樞紐與導航員"
+      ],
+      "description": "根權限與授權邊界、導航員口吻"
+    },
+    {
+      "path": "current_canon.md",
+      "start": 1388,
+      "end": 1435,
+      "selector": [
+        "heading",
+        "14. 傷勢、資源與風險"
+      ],
+      "description": "極限消耗管理與風險"
+    },
+    {
+      "path": "current_canon.md",
+      "start": 1502,
+      "end": 1513,
+      "selector": [
+        "heading",
+        "導航員AI"
+      ],
+      "description": "導航員關係"
+    },
+    {
+      "path": "current_canon.md",
+      "start": 1552,
+      "end": 1567,
+      "selector": [
+        "heading",
+        "貓屋敷奏"
+      ],
+      "description": "雪奈視角下的奏"
+    },
+    {
+      "path": "world/道具/道具_夜巡者.md",
+      "start": 6,
+      "end": 14,
+      "selector": [
+        "heading",
+        "基礎科技框架"
+      ],
+      "description": "夜巡者通訊中繼、能源與車架"
+    },
+    {
+      "path": "world/道具/道具_夜巡者.md",
+      "start": 24,
+      "end": 30,
+      "selector": [
+        "heading",
+        "2. 殺手「銀色幽靈」模式（螢光紫）"
+      ],
+      "description": "銀色幽靈模式功能與聲光"
+    },
+    {
+      "path": "world/角色/角色_桔梗靜流.md",
+      "start": 7,
+      "end": 13,
+      "selector": [
+        "heading",
+        "身份與背景"
+      ],
+      "description": "舊城區診所與十二歲舊傷照護"
+    },
+    {
+      "path": "world/角色/角色_桔梗靜流.md",
+      "start": 14,
+      "end": 20,
+      "selector": [
+        "heading",
+        "能力（僅醫藥相關）"
+      ],
+      "description": "雪奈專用醫療後勤與止血凝血藥劑"
+    },
+    {
+      "path": "world/角色/角色_桔梗靜流.md",
+      "start": 21,
+      "end": 27,
+      "selector": [
+        "heading",
+        "外觀與辨識度"
+      ],
+      "description": "褪色銀杏葉木牌與診所視覺座標"
+    },
+    {
+      "path": "world/角色/角色_奏_v4.md",
+      "start": 9,
+      "end": 49,
+      "selector": [
+        "heading",
+        "0. 不可變核心"
+      ],
+      "description": "黑貓不可變核心"
+    },
+    {
+      "path": "world/角色/角色_奏_v4.md",
+      "start": 74,
+      "end": 81,
+      "selector": [
+        "heading",
+        "1.3 半同居狀態"
+      ],
+      "description": "奏的安全屋與任務裝備整備空間"
+    },
+    {
+      "path": "world/角色/角色_奏_v4.md",
+      "start": 84,
+      "end": 95,
+      "selector": [
+        "heading",
+        "2.1 基本外觀"
+      ],
+      "description": "墨黑鮑伯短髮、琥珀眼與指腹薄繭"
+    },
+    {
+      "path": "world/角色/角色_奏_v4.md",
+      "start": 110,
+      "end": 118,
+      "selector": [
+        "heading",
+        "2.4 戰鬥服"
+      ],
+      "description": "黑貓作戰膠衣、貓耳耳機、線匣與防割手套"
+    },
+    {
+      "path": "world/角色/角色_奏_v4.md",
+      "start": 161,
+      "end": 168,
+      "selector": [
+        "heading",
+        "3.6 對暴力的態度"
+      ],
+      "description": "奏的冰冷控制殺意"
+    },
+    {
+      "path": "world/角色/角色_奏_v4.md",
+      "start": 235,
+      "end": 260,
+      "selector": [
+        "heading",
+        "6. 能力與裝備"
+      ],
+      "description": "戰力定位與「控制先於殺戮」三階段"
+    },
+    {
+      "path": "world/角色/角色_奏_v4.md",
+      "start": 261,
+      "end": 305,
+      "selector": [
+        "heading",
+        "7. 主武器「影縛」"
+      ],
+      "description": "承重索、束縛索、切割絲與四主兩輔20公尺限制"
+    },
+    {
+      "path": "world/角色/角色_奏_v4.md",
+      "start": 306,
+      "end": 326,
+      "selector": [
+        "heading",
+        "8. 柔術與近身技術"
+      ],
+      "description": "槓桿、潔癖與力量限制"
+    },
+    {
+      "path": "world/角色/角色_奏_v4.md",
+      "start": 327,
+      "end": 352,
+      "selector": [
+        "heading",
+        "9. 輔助裝備"
+      ],
+      "description": "淬毒飛針、煙霧閃光與不用槍弱點"
+    },
+    {
+      "path": "world/角色/角色_奏_v4.md",
+      "start": 353,
+      "end": 390,
+      "selector": [
+        "heading",
+        "10. 戰術思維"
+      ],
+      "description": "棋手視角與即興佈線"
+    },
+    {
+      "path": "world/角色/角色_奏_v4.md",
+      "start": 391,
+      "end": 408,
+      "selector": [
+        "heading",
+        "11. 弱點與風險"
+      ],
+      "description": "雪奈遇險時提高風險接受度與影縛弱點"
+    },
+    {
+      "path": "world/角色/角色_奏_v4.md",
+      "start": 411,
+      "end": 422,
+      "selector": [
+        "heading",
+        "12.1 朔夜雪奈"
+      ],
+      "description": "稱呼雪奈姐與依戀本質"
+    },
+    {
+      "path": "world/角色/角色_奏_v4.md",
+      "start": 495,
+      "end": 512,
+      "selector": [
+        "heading",
+        "15. 聲線與狀態矩陣"
+      ],
+      "description": "雪奈遇險與陣地收網聲線"
+    },
+    {
+      "path": "world/角色/角色_奏_v4.md",
+      "start": 513,
+      "end": 524,
+      "selector": [
+        "heading",
+        "16. 寫作要點"
+      ],
+      "description": "先寫空間與錨點再寫線網"
+    },
+    {
+      "path": "world/世界觀_核心設定_v0.5.md",
+      "start": 39,
+      "end": 44,
+      "selector": [
+        "heading",
+        "2.1 新舊交錯的都市"
+      ],
+      "description": "立體交通與跨區夜行背景"
+    },
+    {
+      "path": "world/地點/地點_朔夜宅邸.md",
+      "start": 1,
+      "end": 53,
+      "selector": [
+        "heading",
+        "朔夜宅邸（世田谷區｜00號安全屋）"
+      ],
+      "description": "世田谷位置定位"
+    }
+  ],
+  "note": "File hashes describe actual inputs, including any uncommitted changes. Line endings normalized to LF. Semantic coverage is reviewed by a person/agent.",
+  "outputs": {
+    "context_pack_1.md": {
+      "sha256": "622fb691c97c26e9e3231dc201b913f69eba8495495ea4cd235bcca2f7a525f2",
+      "bytes": 39818
+    },
+    "context_pack_2.md": {
+      "sha256": "8e39202616216ea4ff5be2ba3921bbb5b434cfd462f45a3ece42c2f84ea6b02e",
+      "bytes": 9728
+    }
+  }
+}

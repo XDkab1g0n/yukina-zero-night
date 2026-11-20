@@ -1,0 +1,36 @@
+current_canon.md|heading|1.1 身份|雪奈基本身分與體型
+current_canon.md|heading|1.2 身體本質|自然人本質、無植入物與瞬時輸出邊界
+current_canon.md|heading|2.1 整體印象|嬌小體型與動態反差
+current_canon.md|heading|2.3 銀髮與高雙馬尾|戰鬥視覺
+current_canon.md|heading|2.4 身體動態|變速與連續運動
+current_canon.md|heading|2.5 身體部位|身體功能與十二歲舊腹傷疤
+current_canon.md|heading|2.6 生理能力與恢復|毒抗、痛覺耐受、腦震盪、缺氧、失血與恢復條件
+current_canon.md|heading|3.1 底色|人格底色
+current_canon.md|heading|3.2 十八歲的少女感|戰鬥中的少女反應
+current_canon.md|heading|3.3 慵懶與毒舌|真怒與高負荷下的語氣轉折
+current_canon.md|heading|4.1 基本聲音|負荷升高後的說話節奏
+current_canon.md|heading|4.3 戰鬥中的垃圾話|銀色幽靈的對話方式
+current_canon.md|heading|6. 銀色幽靈|銀色幽靈核心定位、自由、舞台感與高手反應
+current_canon.md|heading|8.2 身體輸出|腿擊爆發、持續角力限制與消耗差異
+current_canon.md|heading|8.3 輕盈體格、極速與變速|38kg與幽靈舞步
+current_canon.md|heading|8.4 防禦|機動防禦與真實血肉受創條件
+current_canon.md|heading|8.5 全領域能力補充|射擊、反毒、戰地醫療與離線硬體駭客限制
+current_canon.md|heading|9. 戰力尺度|數百公斤級強化人與頂級高手尺度
+current_canon.md|heading|10. 戰鬥語彙|腿法與近身選擇庫
+current_canon.md|heading|11. 跨身份共用武裝與銀色幽靈裝備|白夜極夜、夜影、極光、夢魘舞者、紫電、水手服、斗篷、小道具
+current_canon.md|heading|13. 樞紐與導航員|樞紐介面與導航員人格
+current_canon.md|heading|14. 傷勢、資源與風險|如何把雪奈壓入敗勢的具體機制
+current_canon.md|heading|15. 過去與現在|保存身體哲學與過去底層
+current_canon.md|heading|導航員AI|導航員關係
+current_canon.md|heading|17.3 戰鬥是一條連續事件|時間線與連續物理規則
+world/世界觀_核心設定_v0.5.md|heading|3.4 義體、工業與軍事技術|灰色軍備與改造技術尺度
+world/世界觀_核心設定_v0.5.md|heading|4.1 自然科學體系中的異能|精神與生物異能的世界觀邊界
+world/世界觀_核心設定_v0.5.md|heading|4.3 戰略級個體的意義|戰略級體力與傷勢代價
+world/世界觀_核心設定_v0.5.md|heading|6.2 巨型企業：技術、能源與私人軍隊|跨國企業派私人武裝搶貨的常識
+world/世界觀_核心設定_v0.5.md|heading|7｜公眾、媒體與資訊流通|銀色幽靈圈層與外部資訊隔離
+world/組織/組織_銜尾蛇_v2_0.md|heading|四、委託制度|委託流程與情報落差中止權
+world/組織/組織_銜尾蛇_v2_0.md|heading|八、資源與限制|情報網可能受多方勢力污染
+world/組織/組織_銜尾蛇_v2_0.md|heading|九、銀色幽靈／朔夜雪奈的特殊地位|銀色幽靈的自主與契約邊界
+world/角色/角色_黑岩真希.md|heading|能力|真希仲介篩選委託的邊界
+world/道具/道具_夜巡者.md|heading|基礎科技框架|夜巡者基本規格
+world/道具/道具_夜巡者.md|heading|2. 殺手「銀色幽靈」模式（螢光紫）|銀色幽靈模式外觀與聲光細節
