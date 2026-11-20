@@ -1,0 +1,327 @@
+{
+  "format": 1,
+  "source_head": "bef75b0a87f2dd07b565fffce0cbd4170200fb43",
+  "spec_sha256": "b0b1248fa9d2c502b2c2b192edd7eb094d90982ffc10773ea20006febcdf92f6",
+  "spec_text": "current_canon.md|heading|1. 不可變核心|雪奈不可變核心與自主權\ncurrent_canon.md|heading|2.6 生理能力與恢復|高速認知、空間建模與身體恢復邊界\ncurrent_canon.md|heading|3.2 十八歲的少女感|十八歲少女在任務中的真實餘裕\ncurrent_canon.md|heading|3.3 慵懶與毒舌|觀察式吐槽語氣\ncurrent_canon.md|heading|7. 零夜|零夜完整定位、看見局面、穩住局勢、即興與本人\ncurrent_canon.md|heading|11.3 跨身份共用武裝|白夜／極夜／夜影／極光能力與限制\ncurrent_canon.md|heading|12. 零夜視覺與裝備|橘燄、白霰、黑曜、零點、幻影、鳴神、鎮魂與軍用道具\ncurrent_canon.md|heading|13. 樞紐與導航員|樞紐電漿橙狀態與導航員零夜語氣\ncurrent_canon.md|heading|14. 傷勢、資源與風險|能源、熱量與公共環境限制\nworld/角色/角色_神代椿.md|heading|神代椿（Kamiyodo Tsubaki）|椿的外貌、辦公細節、冷面反差與與雪奈互動\nworld/組織/組織_八咫烏_v2_0.md|heading|一、組織概覽|八咫烏核心原則與定位\nworld/組織/組織_八咫烏_v2_0.md|heading|三、指揮鏈與權限|椿與任務執行者之權限邊界\nworld/組織/組織_八咫烏_v2_0.md|heading|四、任務分級與編成|黑盒任務與最小必要投入\nworld/組織/組織_八咫烏_v2_0.md|heading|五、法律地位與善後制度|現場接管權限、目擊者管理與證據不得僅因機密銷毀規定\nworld/地點/地點_鴉巢.md|heading|鴉巢（防衛省地下150公尺｜八咫烏專屬據點「黑盒」）|鴉巢出發環境細節\nworld/道具/道具_夜巡者.md|heading|1. 特工「零夜」模式（螢光橙）|夜巡者零夜螢光橙塗裝與隱藏武器倉\nworld/世界觀_核心設定_v0.5.md|heading|2.1 新舊交錯的都市|高架磁浮立體交通與新東京都市空間\nworld/世界觀_核心設定_v0.5.md|heading|2.3 醫療作為商品與權力|商業醫療壓力與兒子醫療費斷供之世界觀依據\nworld/世界觀_核心設定_v0.5.md|heading|3.3 能源與基礎設施|能源基礎設施背景\nworld/世界觀_核心設定_v0.5.md|heading|6.2 巨型企業：技術、能源與私人軍隊|能源巨頭與底層壓力背景\nworld/世界觀_核心設定_v0.5.md|heading|7｜公眾、媒體與資訊流通|公眾直播、媒體與目擊者資訊流通邊界\nworld/組織/組織_八咫烏_v2_0.md|heading|七、資源與限制|八咫烏處理災害而非解決社會矛盾之組織限制\nworld/組織/組織_八咫烏_v2_0.md|heading|八、零夜／朔夜雪奈的特殊契約|雪奈與八咫烏之自主契約、拒絕權與報酬邊界\ncurrent_canon.md|heading|2.2 臉與表情|雪奈表情質感與日常微動作\ncurrent_canon.md|heading|2.3 銀髮與高雙馬尾|零夜高雙馬尾外觀質感\ncurrent_canon.md|heading|4.1 基本聲音|雪奈日常與任務對話節奏\ncurrent_canon.md|heading|8.5 全領域能力補充|離線硬體與物理隔離下的資訊戰邊界\ncurrent_canon.md|heading|9. 戰力尺度|普通退役工兵與戰略級個體的實力尺度基準\nworld/道具/道具_夜巡者.md|heading|基礎科技框架|夜巡者車架、電漿靜音與主動磁懸浮能力\nworld/道具/道具_夜巡者.md|heading|核心功能與戰術應用|夜巡者立體機動與移動中繼應用\n",
+  "sources": {
+    "current_canon.md": "0fea2378ea81c95b3329f96223f8eeba672219b89398ebbd968dfe532c183148",
+    "world/角色/角色_神代椿.md": "d063937cb44fc19addf18538184cd909cb71c46527e932405789f8e511fb02af",
+    "world/組織/組織_八咫烏_v2_0.md": "ef85086e0eb673c7a4b3e57d960b4af41d4d09bfe0dcc74288e12c73b23a657d",
+    "world/地點/地點_鴉巢.md": "dc02b3057f1a78b4254e42a0798f1a807ac20528aa1a702ae3c9bf2f978b0ec2",
+    "world/道具/道具_夜巡者.md": "072c739a41240526e22f55316bb3d86bd03e2e4a38ea40e209901637636cc565",
+    "world/世界觀_核心設定_v0.5.md": "523932ce1e082505af809d2ce16ebc1a3562a2d5765aae13528d7ab465ec7eb6"
+  },
+  "selections": [
+    {
+      "path": "current_canon.md",
+      "start": 34,
+      "end": 99,
+      "selector": [
+        "heading",
+        "1. 不可變核心"
+      ],
+      "description": "雪奈不可變核心與自主權"
+    },
+    {
+      "path": "current_canon.md",
+      "start": 222,
+      "end": 241,
+      "selector": [
+        "heading",
+        "2.6 生理能力與恢復"
+      ],
+      "description": "高速認知、空間建模與身體恢復邊界"
+    },
+    {
+      "path": "current_canon.md",
+      "start": 277,
+      "end": 307,
+      "selector": [
+        "heading",
+        "3.2 十八歲的少女感"
+      ],
+      "description": "十八歲少女在任務中的真實餘裕"
+    },
+    {
+      "path": "current_canon.md",
+      "start": 308,
+      "end": 331,
+      "selector": [
+        "heading",
+        "3.3 慵懶與毒舌"
+      ],
+      "description": "觀察式吐槽語氣"
+    },
+    {
+      "path": "current_canon.md",
+      "start": 582,
+      "end": 699,
+      "selector": [
+        "heading",
+        "7. 零夜"
+      ],
+      "description": "零夜完整定位、看見局面、穩住局勢、即興與本人"
+    },
+    {
+      "path": "current_canon.md",
+      "start": 907,
+      "end": 977,
+      "selector": [
+        "heading",
+        "11.3 跨身份共用武裝"
+      ],
+      "description": "白夜／極夜／夜影／極光能力與限制"
+    },
+    {
+      "path": "current_canon.md",
+      "start": 1096,
+      "end": 1304,
+      "selector": [
+        "heading",
+        "12. 零夜視覺與裝備"
+      ],
+      "description": "橘燄、白霰、黑曜、零點、幻影、鳴神、鎮魂與軍用道具"
+    },
+    {
+      "path": "current_canon.md",
+      "start": 1305,
+      "end": 1387,
+      "selector": [
+        "heading",
+        "13. 樞紐與導航員"
+      ],
+      "description": "樞紐電漿橙狀態與導航員零夜語氣"
+    },
+    {
+      "path": "current_canon.md",
+      "start": 1388,
+      "end": 1435,
+      "selector": [
+        "heading",
+        "14. 傷勢、資源與風險"
+      ],
+      "description": "能源、熱量與公共環境限制"
+    },
+    {
+      "path": "world/角色/角色_神代椿.md",
+      "start": 1,
+      "end": 64,
+      "selector": [
+        "heading",
+        "神代椿（Kamiyodo Tsubaki）"
+      ],
+      "description": "椿的外貌、辦公細節、冷面反差與與雪奈互動"
+    },
+    {
+      "path": "world/組織/組織_八咫烏_v2_0.md",
+      "start": 13,
+      "end": 31,
+      "selector": [
+        "heading",
+        "一、組織概覽"
+      ],
+      "description": "八咫烏核心原則與定位"
+    },
+    {
+      "path": "world/組織/組織_八咫烏_v2_0.md",
+      "start": 49,
+      "end": 81,
+      "selector": [
+        "heading",
+        "三、指揮鏈與權限"
+      ],
+      "description": "椿與任務執行者之權限邊界"
+    },
+    {
+      "path": "world/組織/組織_八咫烏_v2_0.md",
+      "start": 82,
+      "end": 127,
+      "selector": [
+        "heading",
+        "四、任務分級與編成"
+      ],
+      "description": "黑盒任務與最小必要投入"
+    },
+    {
+      "path": "world/組織/組織_八咫烏_v2_0.md",
+      "start": 128,
+      "end": 147,
+      "selector": [
+        "heading",
+        "五、法律地位與善後制度"
+      ],
+      "description": "現場接管權限、目擊者管理與證據不得僅因機密銷毀規定"
+    },
+    {
+      "path": "world/地點/地點_鴉巢.md",
+      "start": 1,
+      "end": 48,
+      "selector": [
+        "heading",
+        "鴉巢（防衛省地下150公尺｜八咫烏專屬據點「黑盒」）"
+      ],
+      "description": "鴉巢出發環境細節"
+    },
+    {
+      "path": "world/道具/道具_夜巡者.md",
+      "start": 17,
+      "end": 23,
+      "selector": [
+        "heading",
+        "1. 特工「零夜」模式（螢光橙）"
+      ],
+      "description": "夜巡者零夜螢光橙塗裝與隱藏武器倉"
+    },
+    {
+      "path": "world/世界觀_核心設定_v0.5.md",
+      "start": 39,
+      "end": 44,
+      "selector": [
+        "heading",
+        "2.1 新舊交錯的都市"
+      ],
+      "description": "高架磁浮立體交通與新東京都市空間"
+    },
+    {
+      "path": "world/世界觀_核心設定_v0.5.md",
+      "start": 51,
+      "end": 56,
+      "selector": [
+        "heading",
+        "2.3 醫療作為商品與權力"
+      ],
+      "description": "商業醫療壓力與兒子醫療費斷供之世界觀依據"
+    },
+    {
+      "path": "world/世界觀_核心設定_v0.5.md",
+      "start": 77,
+      "end": 82,
+      "selector": [
+        "heading",
+        "3.3 能源與基礎設施"
+      ],
+      "description": "能源基礎設施背景"
+    },
+    {
+      "path": "world/世界觀_核心設定_v0.5.md",
+      "start": 141,
+      "end": 146,
+      "selector": [
+        "heading",
+        "6.2 巨型企業：技術、能源與私人軍隊"
+      ],
+      "description": "能源巨頭與底層壓力背景"
+    },
+    {
+      "path": "world/世界觀_核心設定_v0.5.md",
+      "start": 157,
+      "end": 166,
+      "selector": [
+        "heading",
+        "7｜公眾、媒體與資訊流通"
+      ],
+      "description": "公眾直播、媒體與目擊者資訊流通邊界"
+    },
+    {
+      "path": "world/組織/組織_八咫烏_v2_0.md",
+      "start": 170,
+      "end": 193,
+      "selector": [
+        "heading",
+        "七、資源與限制"
+      ],
+      "description": "八咫烏處理災害而非解決社會矛盾之組織限制"
+    },
+    {
+      "path": "world/組織/組織_八咫烏_v2_0.md",
+      "start": 194,
+      "end": 216,
+      "selector": [
+        "heading",
+        "八、零夜／朔夜雪奈的特殊契約"
+      ],
+      "description": "雪奈與八咫烏之自主契約、拒絕權與報酬邊界"
+    },
+    {
+      "path": "current_canon.md",
+      "start": 123,
+      "end": 154,
+      "selector": [
+        "heading",
+        "2.2 臉與表情"
+      ],
+      "description": "雪奈表情質感與日常微動作"
+    },
+    {
+      "path": "current_canon.md",
+      "start": 155,
+      "end": 186,
+      "selector": [
+        "heading",
+        "2.3 銀髮與高雙馬尾"
+      ],
+      "description": "零夜高雙馬尾外觀質感"
+    },
+    {
+      "path": "current_canon.md",
+      "start": 367,
+      "end": 385,
+      "selector": [
+        "heading",
+        "4.1 基本聲音"
+      ],
+      "description": "雪奈日常與任務對話節奏"
+    },
+    {
+      "path": "current_canon.md",
+      "start": 791,
+      "end": 807,
+      "selector": [
+        "heading",
+        "8.5 全領域能力補充"
+      ],
+      "description": "離線硬體與物理隔離下的資訊戰邊界"
+    },
+    {
+      "path": "current_canon.md",
+      "start": 808,
+      "end": 837,
+      "selector": [
+        "heading",
+        "9. 戰力尺度"
+      ],
+      "description": "普通退役工兵與戰略級個體的實力尺度基準"
+    },
+    {
+      "path": "world/道具/道具_夜巡者.md",
+      "start": 6,
+      "end": 14,
+      "selector": [
+        "heading",
+        "基礎科技框架"
+      ],
+      "description": "夜巡者車架、電漿靜音與主動磁懸浮能力"
+    },
+    {
+      "path": "world/道具/道具_夜巡者.md",
+      "start": 38,
+      "end": 45,
+      "selector": [
+        "heading",
+        "核心功能與戰術應用"
+      ],
+      "description": "夜巡者立體機動與移動中繼應用"
+    }
+  ],
+  "note": "File hashes describe actual inputs, including any uncommitted changes. Line endings normalized to LF. Semantic coverage is reviewed by a person/agent.",
+  "outputs": {
+    "context_pack_1.md": {
+      "sha256": "a3a771b0850cb3a956b56ab6172acfce02bb07618d4ec972d96c87c9b7b38bb9",
+      "bytes": 38093
+    },
+    "context_pack_2.md": {
+      "sha256": "1d6bf59b8c6c3aef980341528a5807288220999a82f4caa2e589ea9c44c3601a",
+      "bytes": 23038
+    }
+  }
+}
