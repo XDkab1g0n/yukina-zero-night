@@ -18,7 +18,7 @@
 | 十八歲雪奈是誰、能做到什麼 | `current_canon.md`（v17.18；v17.17 及更早版本已過時） |
 | 前傳、回憶、其他時期的雪奈 | `world/雪奈/` 的對應時期檔；各時期的能力、裝備、關係與所知要分清 |
 | 配角、組織制度、場所空間、道具 | `world/` 的原始檔：制度看組織檔，空間看地點檔 |
-| 怎麼寫得好看 | `WRITING_GUIDE.md`（v3，短指南） |
+| 怎麼寫得好看 | `WRITING_GUIDE.md`（v3.1，短指南；作品氣質與寫作方法） |
 | 多代理怎麼分工、怎麼選稿 | `method/LOOP.md` |
 
 其他文件裡的順帶描寫，不能覆蓋原始設定。遇到矛盾，先確認時期與文件定位；無法裁決時直接指出，不要默默拼合。
@@ -45,7 +45,7 @@
 ```
 README.md                 這份入口
 current_canon.md          十八歲正篇正典 v17.18
-WRITING_GUIDE.md          寫作短指南 v3：人物、文采、設定取用、戰鬥與修訂
+WRITING_GUIDE.md          寫作短指南 v3.1：作品氣質、人物、文采、設定取用、戰鬥與修訂
 source_guide.md           world/ 各檔的導覽：裡面有什麼、什麼時候讀
 world/
   世界觀_核心設定_v0.5.md  2080 年代新東京的世界常識與制度
@@ -65,7 +65,7 @@ method/
   verify_prose.py         可選字面與自我重複提醒：不以句型、密度或重複判定文學合格與否
   iteration_log.md        方法學的驗證與修訂紀錄
 examples/
-  selected_examples.md         14 組範文精選片段（含近作不同敵方知情／衝突生成方式）
+  selected_examples.md         20 組範文精選片段（含近作不同衝突生成方式、早期連載黑暗與動作美學）
   full_examples_archive.md     11 篇範文與對照稿全文（約 41 萬字元，需要時才讀）
   examples_editorial_analysis.md  逐篇精讀：好在哪裡、失敗稿怎麼走偏
   loop_benchmark_shinagawa.md  品川五輪競稿實測正文與逐輪標註（第四輪是反面教材）
