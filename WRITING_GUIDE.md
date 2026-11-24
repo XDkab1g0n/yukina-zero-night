@@ -66,4 +66,5 @@
 - `examples/selected_examples.md`：挑與當前需要相近的片段，借觀察方法與敘事效果，不照搬場面。第 15–20 組專收早期連載的黑暗、力量、恐怖、群像與黑色幽默片段。
 - `examples/examples_editorial_analysis.md`：想理解成功與失敗原因時查讀。
 - `examples/full_examples_archive.md`：需看整篇布局才讀相應作品。
+- `examples/loop_benchmark_shinagawa.md`：品川五輪競稿實測與逐輪標註（第四輪作反面教材對照）。
 - `method/iteration_log.md`：流程歷史、用量與待驗證假設；其中舊版規則不覆蓋現行流程。
