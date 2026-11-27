@@ -1,0 +1,18 @@
+current_canon.md|heading|3.1 底色|人格底色、殘酷與選擇
+current_canon.md|heading|3.3 慵懶與毒舌|面對敵人的惡劣與動怒
+current_canon.md|heading|4. 對話與即時反應|聲線、幽默、戰鬥中的垃圾話
+current_canon.md|heading|6. 銀色幽靈|身份、自由、舞台感、高手、地下地位
+current_canon.md|heading|8.1 定位與全領域能力|戰鬥能力定位
+current_canon.md|heading|9. 戰力尺度|對各級敵人的尺度
+current_canon.md|heading|10.1 跨身分共用武裝|白夜／極夜、夜影、極光
+current_canon.md|heading|10.2 銀色幽靈裝備|剪影、夢魘舞者、紫電、服裝、惡作劇工具
+current_canon.md|heading|11. 樞紐與導航員|樞紐與導航員
+current_canon.md|heading|12. 傷勢、資源與風險|消耗、高危區
+world/角色/角色_黑岩真希.md|heading|黑岩真希（Kuroiwa Maki）|仲介、篩案、與雪奈的互動
+world/組織/組織_銜尾蛇_v2_0.md|heading|四、委託制度|受理、託管、成員權利義務
+world/組織/組織_銜尾蛇_v2_0.md|heading|五、禁止與限制委託|禁止與特批
+world/組織/組織_銜尾蛇_v2_0.md|heading|九、銀色幽靈／朔夜雪奈的特殊地位|組織與她的邊界
+world/世界觀_核心設定_v0.5.md|heading|2.3 醫療作為商品與權力|商業化醫療與義體負擔
+world/世界觀_核心設定_v0.5.md|heading|3.4 義體、工業與軍事技術|義體技術水準
+world/世界觀_核心設定_v0.5.md|heading|2.4 治安與城市節奏|治安
+world/世界觀_核心設定_v0.5.md|heading|7｜公眾、媒體與資訊流通|資訊擴散與目擊

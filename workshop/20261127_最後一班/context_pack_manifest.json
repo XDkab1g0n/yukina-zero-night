@@ -1,0 +1,205 @@
+{
+  "format": 1,
+  "source_head": "24b24924ef34a7b1446c1a9bbc5f13e11476ff9c",
+  "spec_sha256": "d4ecbe83aaf95b642685cdf0c9355c8faeb7445c4fadfadb4065be7b3e98922f",
+  "spec_text": "current_canon.md|heading|3.1 底色|人格底色、殘酷與選擇\ncurrent_canon.md|heading|3.3 慵懶與毒舌|面對敵人的惡劣與動怒\ncurrent_canon.md|heading|4. 對話與即時反應|聲線、幽默、戰鬥中的垃圾話\ncurrent_canon.md|heading|6. 銀色幽靈|身份、自由、舞台感、高手、地下地位\ncurrent_canon.md|heading|8.1 定位與全領域能力|戰鬥能力定位\ncurrent_canon.md|heading|9. 戰力尺度|對各級敵人的尺度\ncurrent_canon.md|heading|10.1 跨身分共用武裝|白夜／極夜、夜影、極光\ncurrent_canon.md|heading|10.2 銀色幽靈裝備|剪影、夢魘舞者、紫電、服裝、惡作劇工具\ncurrent_canon.md|heading|11. 樞紐與導航員|樞紐與導航員\ncurrent_canon.md|heading|12. 傷勢、資源與風險|消耗、高危區\nworld/角色/角色_黑岩真希.md|heading|黑岩真希（Kuroiwa Maki）|仲介、篩案、與雪奈的互動\nworld/組織/組織_銜尾蛇_v2_0.md|heading|四、委託制度|受理、託管、成員權利義務\nworld/組織/組織_銜尾蛇_v2_0.md|heading|五、禁止與限制委託|禁止與特批\nworld/組織/組織_銜尾蛇_v2_0.md|heading|九、銀色幽靈／朔夜雪奈的特殊地位|組織與她的邊界\nworld/世界觀_核心設定_v0.5.md|heading|2.3 醫療作為商品與權力|商業化醫療與義體負擔\nworld/世界觀_核心設定_v0.5.md|heading|3.4 義體、工業與軍事技術|義體技術水準\nworld/世界觀_核心設定_v0.5.md|heading|2.4 治安與城市節奏|治安\nworld/世界觀_核心設定_v0.5.md|heading|7｜公眾、媒體與資訊流通|資訊擴散與目擊\n",
+  "sources": {
+    "current_canon.md": "d0abd5ed87b5cb3e3b1284ea91e9705aaff88b6d1a2add396c5a0cd4f293e300",
+    "world/角色/角色_黑岩真希.md": "d436a9e206c6228e47f2b384a974eba37233fcb69d2ee582a314fa5e49df3551",
+    "world/組織/組織_銜尾蛇_v2_0.md": "d2c1ada5693d18e0a95d7f0e6c6b6da8e8335a20fd049493798ef41ef9dba32e",
+    "world/世界觀_核心設定_v0.5.md": "bb6cfc70fdd326ce2adfacdccf7d8a9f12fa864f64a0abcc1bd95b098f82c617"
+  },
+  "selections": [
+    {
+      "path": "current_canon.md",
+      "start": 212,
+      "end": 227,
+      "selector": [
+        "heading",
+        "3.1 底色"
+      ],
+      "description": "人格底色、殘酷與選擇"
+    },
+    {
+      "path": "current_canon.md",
+      "start": 242,
+      "end": 257,
+      "selector": [
+        "heading",
+        "3.3 慵懶與毒舌"
+      ],
+      "description": "面對敵人的惡劣與動怒"
+    },
+    {
+      "path": "current_canon.md",
+      "start": 288,
+      "end": 315,
+      "selector": [
+        "heading",
+        "4. 對話與即時反應"
+      ],
+      "description": "聲線、幽默、戰鬥中的垃圾話"
+    },
+    {
+      "path": "current_canon.md",
+      "start": 363,
+      "end": 406,
+      "selector": [
+        "heading",
+        "6. 銀色幽靈"
+      ],
+      "description": "身份、自由、舞台感、高手、地下地位"
+    },
+    {
+      "path": "current_canon.md",
+      "start": 479,
+      "end": 502,
+      "selector": [
+        "heading",
+        "8.1 定位與全領域能力"
+      ],
+      "description": "戰鬥能力定位"
+    },
+    {
+      "path": "current_canon.md",
+      "start": 581,
+      "end": 610,
+      "selector": [
+        "heading",
+        "9. 戰力尺度"
+      ],
+      "description": "對各級敵人的尺度"
+    },
+    {
+      "path": "current_canon.md",
+      "start": 613,
+      "end": 664,
+      "selector": [
+        "heading",
+        "10.1 跨身分共用武裝"
+      ],
+      "description": "白夜／極夜、夜影、極光"
+    },
+    {
+      "path": "current_canon.md",
+      "start": 665,
+      "end": 810,
+      "selector": [
+        "heading",
+        "10.2 銀色幽靈裝備"
+      ],
+      "description": "剪影、夢魘舞者、紫電、服裝、惡作劇工具"
+    },
+    {
+      "path": "current_canon.md",
+      "start": 1022,
+      "end": 1087,
+      "selector": [
+        "heading",
+        "11. 樞紐與導航員"
+      ],
+      "description": "樞紐與導航員"
+    },
+    {
+      "path": "current_canon.md",
+      "start": 1088,
+      "end": 1117,
+      "selector": [
+        "heading",
+        "12. 傷勢、資源與風險"
+      ],
+      "description": "消耗、高危區"
+    },
+    {
+      "path": "world/角色/角色_黑岩真希.md",
+      "start": 1,
+      "end": 73,
+      "selector": [
+        "heading",
+        "黑岩真希（Kuroiwa Maki）"
+      ],
+      "description": "仲介、篩案、與雪奈的互動"
+    },
+    {
+      "path": "world/組織/組織_銜尾蛇_v2_0.md",
+      "start": 89,
+      "end": 117,
+      "selector": [
+        "heading",
+        "四、委託制度"
+      ],
+      "description": "受理、託管、成員權利義務"
+    },
+    {
+      "path": "world/組織/組織_銜尾蛇_v2_0.md",
+      "start": 118,
+      "end": 141,
+      "selector": [
+        "heading",
+        "五、禁止與限制委託"
+      ],
+      "description": "禁止與特批"
+    },
+    {
+      "path": "world/組織/組織_銜尾蛇_v2_0.md",
+      "start": 217,
+      "end": 243,
+      "selector": [
+        "heading",
+        "九、銀色幽靈／朔夜雪奈的特殊地位"
+      ],
+      "description": "組織與她的邊界"
+    },
+    {
+      "path": "world/世界觀_核心設定_v0.5.md",
+      "start": 51,
+      "end": 56,
+      "selector": [
+        "heading",
+        "2.3 醫療作為商品與權力"
+      ],
+      "description": "商業化醫療與義體負擔"
+    },
+    {
+      "path": "world/世界觀_核心設定_v0.5.md",
+      "start": 83,
+      "end": 90,
+      "selector": [
+        "heading",
+        "3.4 義體、工業與軍事技術"
+      ],
+      "description": "義體技術水準"
+    },
+    {
+      "path": "world/世界觀_核心設定_v0.5.md",
+      "start": 57,
+      "end": 62,
+      "selector": [
+        "heading",
+        "2.4 治安與城市節奏"
+      ],
+      "description": "治安"
+    },
+    {
+      "path": "world/世界觀_核心設定_v0.5.md",
+      "start": 157,
+      "end": 166,
+      "selector": [
+        "heading",
+        "7｜公眾、媒體與資訊流通"
+      ],
+      "description": "資訊擴散與目擊"
+    }
+  ],
+  "note": "File hashes describe actual inputs, including any uncommitted changes. Line endings normalized to LF. Semantic coverage is reviewed by a person/agent.",
+  "outputs": {
+    "context_pack_1.md": {
+      "sha256": "781d672fc37b384f4f134a02c3c7dd8813e0b4b94dca7c9ac7468407e4dc3686",
+      "bytes": 38409
+    },
+    "context_pack_2.md": {
+      "sha256": "886bbf9b8900086425a93b78a0125494e7798f2b9fda6c988b1ae9df375888df",
+      "bytes": 16146
+    }
+  }
+}
