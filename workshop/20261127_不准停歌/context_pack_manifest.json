@@ -1,0 +1,324 @@
+{
+  "format": 1,
+  "source_head": "4e1ed934afc2f8de422a7f3bd6d3638e77436553",
+  "spec_sha256": "fd131b86c263c6e8a83748803395f232a39c5c49cbfc9a85d9bce4ad01b784c0",
+  "spec_text": "current_canon.md|heading|3. 雪奈的人格|雪奈人格、玩心、關心與關係距離\ncurrent_canon.md|heading|4. 對話與即時反應|聲線、幽默、戰鬥中的垃圾話\ncurrent_canon.md|heading|5.2 私人雪奈|私人身分的生活質地\ncurrent_canon.md|heading|5.3 低調行動|在一般人面前收斂與低可見度\ncurrent_canon.md|heading|6.3 舞台感|注意力塑形\ncurrent_canon.md|heading|8.1 定位與全領域能力|戰鬥能力定位\ncurrent_canon.md|heading|9. 戰力尺度|對各級敵人的尺度\ncurrent_canon.md|heading|10.1 跨身分共用武裝|白夜／極夜、夜影、極光（若攜帶）\ncurrent_canon.md|heading|惡作劇與臨場工具|小型臨場工具\ncurrent_canon.md|heading|12. 傷勢、資源與風險|消耗、高危區、保護責任\ncurrent_canon.md|heading|園谷小夜|雪奈眼中的小夜\nworld/角色/角色_小夜_v4.md|heading|0. 不可變核心|小夜核心、戰力位階、與雪奈的稱呼\nworld/角色/角色_小夜_v4.md|heading|1.3 十六歲老派小老闆與經濟現實|場子經濟、廢鐵線\nworld/角色/角色_小夜_v4.md|heading|2. 「迴聲密室」與重要舊人|空間、規則、阿柴、健叔、帳本\nworld/角色/角色_小夜_v4.md|heading|3.4 黑市拼湊重改裝的真實代價|改造代價、陰雨天反應\nworld/角色/角色_小夜_v4.md|heading|4. 外貌與生活質感|外觀、感官、服裝\nworld/角色/角色_小夜_v4.md|heading|5. 人格、欲望與價值|三重聲部、欲望、噪音倫理\nworld/角色/角色_小夜_v4.md|heading|6. 裝備與黑市改造系統|響核、心嘯、節點、身體改造\nworld/角色/角色_小夜_v4.md|heading|7. 戰鬥哲學與 B.O.S.S.|戰鬥原則、B.O.S.S. 條件與代價、弱點\nworld/角色/角色_小夜_v4.md|heading|8.1 朔夜雪奈|兩人關係起點與互動質地\nworld/角色/角色_小夜_v4.md|heading|9. 任務倫理與殺傷選擇|接案鐵律與殺傷選擇\nworld/角色/角色_小夜_v4.md|heading|11. 聲線與狀態矩陣|各狀態聲線\ncurrent_canon.md|heading|5.1 神山高中學生|日常隨身物與收斂（K 預審補）\ncurrent_canon.md|heading|地下地位與職業生活|銀色幽靈名聲（K 預審補）\ncurrent_canon.md|heading|整體剪影|銀色幽靈視覺辨識（K 預審補）\ncurrent_canon.md|heading|夢魘舞者|銀色幽靈專屬裝備（K 預審補）\ncurrent_canon.md|heading|紫電|銀色幽靈專屬裝備（K 預審補）\ncurrent_canon.md|heading|11. 樞紐與導航員|樞紐常戴、私人低亮度、導航員（K 預審補）\nworld/世界觀_核心設定_v0.5.md|heading|2.4 治安與城市節奏|城市治安（K 預審補）\nworld/世界觀_核心設定_v0.5.md|heading|7｜公眾、媒體與資訊流通|觀眾目擊與資訊擴散（K 預審補）\n",
+  "sources": {
+    "current_canon.md": "d0abd5ed87b5cb3e3b1284ea91e9705aaff88b6d1a2add396c5a0cd4f293e300",
+    "world/角色/角色_小夜_v4.md": "242dcc9604e245e1b400d9f1a57ed0a57601b68ebfd34b8e7fbd7fc89e9db209",
+    "world/世界觀_核心設定_v0.5.md": "bb6cfc70fdd326ce2adfacdccf7d8a9f12fa864f64a0abcc1bd95b098f82c617"
+  },
+  "selections": [
+    {
+      "path": "current_canon.md",
+      "start": 210,
+      "end": 287,
+      "selector": [
+        "heading",
+        "3. 雪奈的人格"
+      ],
+      "description": "雪奈人格、玩心、關心與關係距離"
+    },
+    {
+      "path": "current_canon.md",
+      "start": 288,
+      "end": 315,
+      "selector": [
+        "heading",
+        "4. 對話與即時反應"
+      ],
+      "description": "聲線、幽默、戰鬥中的垃圾話"
+    },
+    {
+      "path": "current_canon.md",
+      "start": 332,
+      "end": 349,
+      "selector": [
+        "heading",
+        "5.2 私人雪奈"
+      ],
+      "description": "私人身分的生活質地"
+    },
+    {
+      "path": "current_canon.md",
+      "start": 350,
+      "end": 362,
+      "selector": [
+        "heading",
+        "5.3 低調行動"
+      ],
+      "description": "在一般人面前收斂與低可見度"
+    },
+    {
+      "path": "current_canon.md",
+      "start": 393,
+      "end": 400,
+      "selector": [
+        "heading",
+        "6.3 舞台感"
+      ],
+      "description": "注意力塑形"
+    },
+    {
+      "path": "current_canon.md",
+      "start": 479,
+      "end": 502,
+      "selector": [
+        "heading",
+        "8.1 定位與全領域能力"
+      ],
+      "description": "戰鬥能力定位"
+    },
+    {
+      "path": "current_canon.md",
+      "start": 581,
+      "end": 610,
+      "selector": [
+        "heading",
+        "9. 戰力尺度"
+      ],
+      "description": "對各級敵人的尺度"
+    },
+    {
+      "path": "current_canon.md",
+      "start": 613,
+      "end": 664,
+      "selector": [
+        "heading",
+        "10.1 跨身分共用武裝"
+      ],
+      "description": "白夜／極夜、夜影、極光（若攜帶）"
+    },
+    {
+      "path": "current_canon.md",
+      "start": 784,
+      "end": 810,
+      "selector": [
+        "heading",
+        "惡作劇與臨場工具"
+      ],
+      "description": "小型臨場工具"
+    },
+    {
+      "path": "current_canon.md",
+      "start": 1088,
+      "end": 1117,
+      "selector": [
+        "heading",
+        "12. 傷勢、資源與風險"
+      ],
+      "description": "消耗、高危區、保護責任"
+    },
+    {
+      "path": "current_canon.md",
+      "start": 1214,
+      "end": 1223,
+      "selector": [
+        "heading",
+        "園谷小夜"
+      ],
+      "description": "雪奈眼中的小夜"
+    },
+    {
+      "path": "world/角色/角色_小夜_v4.md",
+      "start": 9,
+      "end": 57,
+      "selector": [
+        "heading",
+        "0. 不可變核心"
+      ],
+      "description": "小夜核心、戰力位階、與雪奈的稱呼"
+    },
+    {
+      "path": "world/角色/角色_小夜_v4.md",
+      "start": 79,
+      "end": 87,
+      "selector": [
+        "heading",
+        "1.3 十六歲老派小老闆與經濟現實"
+      ],
+      "description": "場子經濟、廢鐵線"
+    },
+    {
+      "path": "world/角色/角色_小夜_v4.md",
+      "start": 88,
+      "end": 128,
+      "selector": [
+        "heading",
+        "2. 「迴聲密室」與重要舊人"
+      ],
+      "description": "空間、規則、阿柴、健叔、帳本"
+    },
+    {
+      "path": "world/角色/角色_小夜_v4.md",
+      "start": 148,
+      "end": 155,
+      "selector": [
+        "heading",
+        "3.4 黑市拼湊重改裝的真實代價"
+      ],
+      "description": "改造代價、陰雨天反應"
+    },
+    {
+      "path": "world/角色/角色_小夜_v4.md",
+      "start": 156,
+      "end": 184,
+      "selector": [
+        "heading",
+        "4. 外貌與生活質感"
+      ],
+      "description": "外觀、感官、服裝"
+    },
+    {
+      "path": "world/角色/角色_小夜_v4.md",
+      "start": 185,
+      "end": 206,
+      "selector": [
+        "heading",
+        "5. 人格、欲望與價值"
+      ],
+      "description": "三重聲部、欲望、噪音倫理"
+    },
+    {
+      "path": "world/角色/角色_小夜_v4.md",
+      "start": 207,
+      "end": 237,
+      "selector": [
+        "heading",
+        "6. 裝備與黑市改造系統"
+      ],
+      "description": "響核、心嘯、節點、身體改造"
+    },
+    {
+      "path": "world/角色/角色_小夜_v4.md",
+      "start": 238,
+      "end": 267,
+      "selector": [
+        "heading",
+        "7. 戰鬥哲學與 B.O.S.S."
+      ],
+      "description": "戰鬥原則、B.O.S.S. 條件與代價、弱點"
+    },
+    {
+      "path": "world/角色/角色_小夜_v4.md",
+      "start": 270,
+      "end": 277,
+      "selector": [
+        "heading",
+        "8.1 朔夜雪奈"
+      ],
+      "description": "兩人關係起點與互動質地"
+    },
+    {
+      "path": "world/角色/角色_小夜_v4.md",
+      "start": 302,
+      "end": 315,
+      "selector": [
+        "heading",
+        "9. 任務倫理與殺傷選擇"
+      ],
+      "description": "接案鐵律與殺傷選擇"
+    },
+    {
+      "path": "world/角色/角色_小夜_v4.md",
+      "start": 325,
+      "end": 339,
+      "selector": [
+        "heading",
+        "11. 聲線與狀態矩陣"
+      ],
+      "description": "各狀態聲線"
+    },
+    {
+      "path": "current_canon.md",
+      "start": 318,
+      "end": 331,
+      "selector": [
+        "heading",
+        "5.1 神山高中學生"
+      ],
+      "description": "日常隨身物與收斂（K 預審補）"
+    },
+    {
+      "path": "current_canon.md",
+      "start": 375,
+      "end": 382,
+      "selector": [
+        "heading",
+        "地下地位與職業生活"
+      ],
+      "description": "銀色幽靈名聲（K 預審補）"
+    },
+    {
+      "path": "current_canon.md",
+      "start": 667,
+      "end": 686,
+      "selector": [
+        "heading",
+        "整體剪影"
+      ],
+      "description": "銀色幽靈視覺辨識（K 預審補）"
+    },
+    {
+      "path": "current_canon.md",
+      "start": 693,
+      "end": 721,
+      "selector": [
+        "heading",
+        "夢魘舞者"
+      ],
+      "description": "銀色幽靈專屬裝備（K 預審補）"
+    },
+    {
+      "path": "current_canon.md",
+      "start": 722,
+      "end": 737,
+      "selector": [
+        "heading",
+        "紫電"
+      ],
+      "description": "銀色幽靈專屬裝備（K 預審補）"
+    },
+    {
+      "path": "current_canon.md",
+      "start": 1022,
+      "end": 1087,
+      "selector": [
+        "heading",
+        "11. 樞紐與導航員"
+      ],
+      "description": "樞紐常戴、私人低亮度、導航員（K 預審補）"
+    },
+    {
+      "path": "world/世界觀_核心設定_v0.5.md",
+      "start": 57,
+      "end": 62,
+      "selector": [
+        "heading",
+        "2.4 治安與城市節奏"
+      ],
+      "description": "城市治安（K 預審補）"
+    },
+    {
+      "path": "world/世界觀_核心設定_v0.5.md",
+      "start": 157,
+      "end": 166,
+      "selector": [
+        "heading",
+        "7｜公眾、媒體與資訊流通"
+      ],
+      "description": "觀眾目擊與資訊擴散（K 預審補）"
+    }
+  ],
+  "note": "File hashes describe actual inputs, including any uncommitted changes. Line endings normalized to LF. Semantic coverage is reviewed by a person/agent.",
+  "outputs": {
+    "context_pack_1.md": {
+      "sha256": "a50bbe671bb77e3ef615fc62eec5829293ba7588762761b926652e207bd35cb1",
+      "bytes": 39796
+    },
+    "context_pack_2.md": {
+      "sha256": "24b13be4c716f020db13e462d4e7f1022de158d7a8b9110106008e74ec156e0c",
+      "bytes": 31553
+    }
+  }
+}
