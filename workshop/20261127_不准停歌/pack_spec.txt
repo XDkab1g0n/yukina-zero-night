@@ -1,0 +1,30 @@
+current_canon.md|heading|3. 雪奈的人格|雪奈人格、玩心、關心與關係距離
+current_canon.md|heading|4. 對話與即時反應|聲線、幽默、戰鬥中的垃圾話
+current_canon.md|heading|5.2 私人雪奈|私人身分的生活質地
+current_canon.md|heading|5.3 低調行動|在一般人面前收斂與低可見度
+current_canon.md|heading|6.3 舞台感|注意力塑形
+current_canon.md|heading|8.1 定位與全領域能力|戰鬥能力定位
+current_canon.md|heading|9. 戰力尺度|對各級敵人的尺度
+current_canon.md|heading|10.1 跨身分共用武裝|白夜／極夜、夜影、極光（若攜帶）
+current_canon.md|heading|惡作劇與臨場工具|小型臨場工具
+current_canon.md|heading|12. 傷勢、資源與風險|消耗、高危區、保護責任
+current_canon.md|heading|園谷小夜|雪奈眼中的小夜
+world/角色/角色_小夜_v4.md|heading|0. 不可變核心|小夜核心、戰力位階、與雪奈的稱呼
+world/角色/角色_小夜_v4.md|heading|1.3 十六歲老派小老闆與經濟現實|場子經濟、廢鐵線
+world/角色/角色_小夜_v4.md|heading|2. 「迴聲密室」與重要舊人|空間、規則、阿柴、健叔、帳本
+world/角色/角色_小夜_v4.md|heading|3.4 黑市拼湊重改裝的真實代價|改造代價、陰雨天反應
+world/角色/角色_小夜_v4.md|heading|4. 外貌與生活質感|外觀、感官、服裝
+world/角色/角色_小夜_v4.md|heading|5. 人格、欲望與價值|三重聲部、欲望、噪音倫理
+world/角色/角色_小夜_v4.md|heading|6. 裝備與黑市改造系統|響核、心嘯、節點、身體改造
+world/角色/角色_小夜_v4.md|heading|7. 戰鬥哲學與 B.O.S.S.|戰鬥原則、B.O.S.S. 條件與代價、弱點
+world/角色/角色_小夜_v4.md|heading|8.1 朔夜雪奈|兩人關係起點與互動質地
+world/角色/角色_小夜_v4.md|heading|9. 任務倫理與殺傷選擇|接案鐵律與殺傷選擇
+world/角色/角色_小夜_v4.md|heading|11. 聲線與狀態矩陣|各狀態聲線
+current_canon.md|heading|5.1 神山高中學生|日常隨身物與收斂（K 預審補）
+current_canon.md|heading|地下地位與職業生活|銀色幽靈名聲（K 預審補）
+current_canon.md|heading|整體剪影|銀色幽靈視覺辨識（K 預審補）
+current_canon.md|heading|夢魘舞者|銀色幽靈專屬裝備（K 預審補）
+current_canon.md|heading|紫電|銀色幽靈專屬裝備（K 預審補）
+current_canon.md|heading|11. 樞紐與導航員|樞紐常戴、私人低亮度、導航員（K 預審補）
+world/世界觀_核心設定_v0.5.md|heading|2.4 治安與城市節奏|城市治安（K 預審補）
+world/世界觀_核心設定_v0.5.md|heading|7｜公眾、媒體與資訊流通|觀眾目擊與資訊擴散（K 預審補）
